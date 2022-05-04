@@ -1,0 +1,29 @@
+{{- $scratch := newScratch }}
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (printf "创建:&nbsp;<span title='%s'>%s</span>" (.Date) (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
+{{- end }}
+
+{{- if (.Param "ShowLastMod") -}}
+{{- $scratch.Add "meta" (slice (printf "更新:&nbsp;%s" (.Lastmod.Format (.Site.Params.dateFormat | default "2006-01-02")))) }}
+{{- end }}
+
+{{- if (.Param "ShowWordCounts") -}}
+{{- $scratch.Add "meta" (slice (default (printf "字数:&nbsp;%d字" .WordCount))) }}
+{{- end }}
+
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (default (printf "时长:&nbsp;%d分钟" .ReadingTime))) }}
+{{- end }}
+
+{{- with (partial "author.html" .) }}
+{{- $scratch.Add "meta" (slice .) }}
+{{- end }}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;|&nbsp;" -}}
+{{- end }}
+
+<!--
+{{- if (.Param "VisitCount") -}}
+{{- $scratch.Add "meta" (slice (printf "访问:&nbsp;<span id='%s'></span>" ("twikoo_visitors") )) }}
+{{- end }}-->

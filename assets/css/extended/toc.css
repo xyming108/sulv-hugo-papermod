@@ -1,0 +1,160 @@
+
+/*最原始目录*/
+.toc {
+    /*width: fit-content;
+    position: fixed;
+    z-index: 1;*/
+    /*margin-left: 800px;
+    word-wrap: break-word;*/
+}
+
+/*.toc li {
+    list-style: none;
+}
+
+.toc ul {
+    list-style: none;
+}
+*/
+
+
+/*官方写的目录扩展----------------------------------------------------------------*/
+
+.toc {
+    margin: 0 2px 40px 2px;
+    border: 1.2px solid var(--border);
+    background: var(--entry);
+    border-radius: var(--radius);
+    padding: 0.4em;
+}
+
+.toc-container.wide {
+    position: absolute;
+    height: 100%;
+    /*border-right: 1px solid var(--border);*/
+    left: calc((var(--toc-width) + var(--gap)) * -0.92);
+    top: calc(var(--gap) * 1);
+    width: var(--toc-width);
+}
+
+.wide .toc {
+    position: sticky;
+    top: var(--gap);
+    /*top: 15px;*/
+    border: unset;
+    background: unset;
+    border-radius: unset;
+    width: 100%;
+    margin: 0 2px 40px 2px;
+}
+
+.toc details summary {
+    cursor: zoom-in;
+    margin-inline-start: 20px;
+    padding: 12px 0;
+}
+
+.toc details[open] summary {
+    font-weight: 500;
+}
+
+.toc-container.wide .toc .inner {
+    margin: 0;
+}
+
+.active {
+    font-size: 100%;
+    /*font-weight: 600;*/
+    border-bottom: 1px solid transparent;
+    padding-bottom: 0.1rem;
+    border-bottom-color: var(--secondary);
+
+    /*会影响到其他地方*/
+    /*background: var(--tertiary);*/
+}
+
+.toc ul {
+    list-style-type: circle;
+}
+
+.toc .inner {
+    margin: 0 0 0 20px;
+    padding: 0px 15px 15px 20px;
+    font-size: 16px;
+}
+
+.toc li ul {
+    margin-inline-start: calc(var(--gap) * 0.5);
+    list-style-type: none;
+}
+
+.toc li {
+    list-style: none;
+    font-size: 0.90rem;
+    padding-bottom: 5px;
+}
+
+.toc li a:hover {
+    font-weight: 600;
+    font-size: 110%;
+    /*color: var(--secondary);*/
+}
+
+
+/*自己写的目录扩展-------------------------------------------------*/
+
+.toc_extend {
+    /*border: 1px solid var(--border);*/
+    /*background: var(--code-bg);*/
+    border-radius: var(--radius);
+    padding: 0.4em;
+    position: fixed;
+    z-index: 1;
+    margin: 0 2px 40px 730px;
+    font-size: 0.80rem;
+    top: 110px;
+}
+
+.dark .toc_extend {
+    /*background: var(--entry);*/
+}
+
+.toc_extend details summary {
+    cursor: zoom-in;
+    margin-inline-start: 20px;
+}
+
+.toc_extend details[open] summary {
+    cursor: zoom-out;
+}
+
+.toc_extend .details_extend {
+    display: inline;
+    font-weight: 500;
+}
+
+.toc_extend .inner_extend {
+    margin: 0 20px;
+    padding: 10px 20px;
+}
+
+.toc_extend li ul {
+    margin-inline-start: var(--gap);
+}
+
+.toc_extend summary:focus {
+    outline: 0;
+}
+
+.toc_extend li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.toc_extend li a:hover {
+    color: var(--secondary);
+}
+
+.toc_extend ul {
+    list-style: none;
+}

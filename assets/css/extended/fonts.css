@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "MaShanZheng-Regular";
+    src: url("/fonts/MaShanZheng-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NeverMindHand-Regular";
+    src: url("/fonts/NeverMindHand-Regular.ttf") format("truetype");
+}

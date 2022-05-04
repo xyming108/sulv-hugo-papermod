@@ -1,0 +1,41 @@
+- id: prev_page
+  translation: "上一页"
+  # translation: "Prev Page"
+
+- id: next_page
+  translation: "下一页"
+  # translation: "Next Page"
+
+- id: read_time
+  translation:
+    # one : "时长: 1分钟"
+    # other: "时长: {{ .Count }}分钟"
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "word"
+    other: "{{ .Count }} 字"
+
+- id: toc
+  translation: "文章目录"
+  # translation: "Table of Contents"
+
+- id: translations
+  translation: "Translations"
+
+- id: home
+  translation: "主页"
+  # translation: "Home"
+
+- id: edit_post
+  translation: "编辑"
+
+- id: code_copy
+  translation: "📄复制"
+  # translation: "copy"
+
+- id: code_copied
+  translation: "👌🏻已复制!"
+  # translation: "copied!"

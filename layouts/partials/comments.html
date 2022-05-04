@@ -1,0 +1,39 @@
+<!-- {{- /* Comments area start */ -}}
+{{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
+{{- /* Comments area end */ -}}
+ -->
+
+
+<!-- Twikoo -->
+<div>
+    <div class="pagination__title">
+        <span class="pagination__title-h" style="font-size: 20px;">💬评论</span>
+        <hr />
+    </div>
+
+    <div id="tcomment"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/twikoo@{{ .Site.Params.twikoo.version }}/dist/twikoo.all.min.js">
+    </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js"></script> -->
+
+    <!-- <script>window.TWIKOO_MAGIC_PATH="共用评论区的名称"</script> -->
+
+    <script>
+        twikoo.init({
+            envId: "", //填自己的
+            el: "#tcomment",
+            lang: 'zh-CN',
+            region: 'ap-guangzhou',
+            path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
+            // onCommentLoaded: function () {
+            //     $(".tk-content img:not(.tk-avatar-img)").each(function () {
+            //         var _b = $("<a></a>").attr("href", this.src);
+            //         $(this).wrap(_b);
+            //     })
+            //     $(".tk-content a[rel!=link]:has(img)").slimbox();
+            // }
+        });
+    </script>
+
+</div>

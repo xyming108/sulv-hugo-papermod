@@ -1,0 +1,86 @@
+{{- define "main" }}
+
+{{- if .Title }}
+<header class="page-header">
+    {{- if eq .Title "Categories" }}
+    <h1>🧩{{ .Title }}</h1>
+    {{- end }}
+    {{- if eq .Title "Tags" }}
+        <h1>🧩{{ "标签" }}</h1>
+        <!-- <h1>🔖{{ .Title }}</h1> -->
+    {{- end }}
+    <!-- <h1>{{ .Title }}</h1> -->
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+{{- end }}
+
+<!-- 原始 -->
+<!-- <ul class="terms-tags">
+    {{- $type := .Type }}
+    {{- range $key, $value := .Data.Terms.Alphabetical }}
+    {{- $name := .Name }}
+    {{- $count := .Count }}
+    {{- with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Name }} <sup><strong><sup>{{ $count }}</sup></strong></sup> </a>
+    </li>
+    {{- end }}
+    {{- end }}
+</ul> -->
+
+<ul class="terms-tags">
+    {{- $type := .Type }}
+    {{- range $key, $value := .Data.Terms.Alphabetical }}
+    {{- $name := .Name }}
+    {{- $count := .Count }}
+    {{- with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+    <li>
+        {{ $largestFontSize := 1.5 }}
+        {{ $smallestFontSize := 1 }}
+        {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
+        {{ $max := add (len (index $.Site.Taxonomies.tags.ByCount 0).Pages) 1 }}
+        {{ $min := len (index $.Site.Taxonomies.tags.ByCount.Reverse 0).Pages }}
+        {{ $spread := sub $max $min }}
+        {{ $fontStep := div $fontSpread $spread }}
+        {{ $weigth := div (sub (math.Log $count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+        {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
+        <a href="{{ .Permalink }}" style="font-size: {{ $currentFontSize }}rem; font-weight: {{ mul $currentFontSize 200 }};">
+            {{ .Name }} <sup><strong><sup>{{ $count }}</sup></strong></sup>
+        </a>
+        <!-- <a href="{{ .Permalink }}" style="font-size: {{ $currentFontSize }}rem; color: rgba({{ sub 150 (mul $count 10) }}, {{ sub 150 (mul $count 10) }}, {{ sub 150 (mul $count 10) }}, 1);">
+            {{ .Name }} <sup><strong><sup>{{ $count }}</sup></strong></sup>
+        </a> -->
+
+    </li>
+    {{- end }}
+    {{- end }}
+</ul>
+
+<!-- 案例 -->
+<!-- <div class="container tagcloud">
+    {{ if ne (len $.Site.Taxonomies.tags) 0 }}
+      {{ $largestFontSize := 2 }}
+      {{ $smallestFontSize := 1.0 }}
+      {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
+      {{ $max := add (len (index $.Site.Taxonomies.tags.ByCount 0).Pages) 1 }}
+      {{ $min := len (index $.Site.Taxonomies.tags.ByCount.Reverse 0).Pages }}
+      {{ $spread := sub $max $min }}
+      {{ $fontStep := div $fontSpread $spread }}
+        {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
+          {{ $tagCount := len $taxonomy.Pages }}
+          {{ $currentFontSize := (add $smallestFontSize (mul (sub $tagCount $min) $fontStep) ) }}
+          {{ $weigth := div (sub (math.Log $tagCount) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+          {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
+            <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}" 
+            class="tagcloud-item" style="font-size: {{ $currentFontSize }}rem;">
+              {{ $name }}<sup>{{ $tagCount }}</sup>
+            </a>
+        {{ end }}
+    {{ end }}
+</div> -->
+
+{{- end }}{{/* end main */ -}}

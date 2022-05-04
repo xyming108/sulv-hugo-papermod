@@ -1,0 +1,111 @@
+{{- define "main" }}
+<article class="post-single">
+    <header class="post-header">
+        {{ partial "breadcrumbs.html" . }}
+        <h1 class="post-title">
+            {{ .Title }}
+            {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+        </h1>
+        {{- if .Description }}
+        <div class="post-description">
+            {{ .Description }}
+        </div>
+        {{- end }}
+        {{- if not (.Param "hideMeta") }}
+        <div class="post-meta">
+            {{- partial "post_meta.html" . -}}
+
+            <!--标签显示在头部-->
+            &nbsp;|&nbsp;标签: &nbsp;
+            {{- if .Params.tags }}
+            <ul class="post-tags-meta">
+                {{- range $index, $value := ($.GetTerms "tags") }}
+                    {{- if eq $index 0}}
+                        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+                    {{- else }}
+                        <a href="{{ .Permalink }}">、{{ .LinkTitle }}</a>
+                    {{- end }}
+                {{- end }}
+            </ul>
+            {{- end }}
+
+            <!--访问量：<span id="twikoo_visitors"></span>-->
+            <span id="busuanzi_container_page_pv">
+                &nbsp;| 访问: <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+            {{- partial "translation_list.html" . -}}
+            {{- partial "edit_post.html" . -}}
+            {{- partial "post_canonical.html" . -}}
+        </div>
+        {{- end }}
+    </header>
+    {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default
+    .Site.Params.cover.hidden }}
+    {{- partial "cover1.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
+    {{- if (.Param "ShowToc") }}
+    <!-- {{- partial "toc.html" . }} -->
+    {{- partial "toc_author.html" . }}
+    {{- end }}
+    <!-- {{- partial "toc_extend.html" . }} -->
+
+    {{- if .Content }}
+    <div class="post-content">
+        {{- if not (.Param "disableAnchoredHeadings") }}
+        {{- partial "anchored_headings.html" .Content -}}
+        {{- else }}{{ .Content }}{{ end }}
+    </div>
+    {{- end }}
+
+    {{- if .Param "reward" }}
+    <div class="post-reward">
+        <div style="padding: 0 0 0 0; margin: 0 0 0 0; width: 100%; font-size:16px; text-align: center;">
+            <div id="QR" style="opacity: 0;">
+                <div id="wechat" style="display: inline-block">
+                    <a class="fancybox" rel="group">
+                        <img id="wechat_qr" src="https://www.sulvblog.cn/img/wechat_pay.png" alt="wechat_pay"></a>
+                    <p>微信</p>
+                </div>
+                <div id="alipay" style="display: inline-block">
+                    <a class="fancybox" rel="group">
+                        <img id="alipay_qr" src="https://www.sulvblog.cn/img/alipay.png" alt="alipay"></a>
+                    <p>支付宝</p>
+                </div>
+            </div>
+            <button id="rewardButton"
+                    onclick="
+                    var qr = document.getElementById('QR');
+                    if (qr.style.opacity === '0') {
+                        qr.style.opacity='1';
+                    } else {
+                        qr.style.opacity='0'
+                    }"
+            >
+                <span>🧧 鼓励</span>
+            </button>
+        </div>
+    </div>
+    {{- end }}
+
+    <footer class="post-footer">
+        <!--{{- if .Params.tags }}
+        <ul class="post-tags">
+            {{- range ($.GetTerms "tags") }}
+            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+            {{- end }}
+        </ul>
+        {{- end }}-->
+        {{- if (.Param "ShowPostNavLinks") }}
+        {{- partial "post_nav_links.html" . }}
+        {{- end }}
+        {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+        {{- partial "share_icons.html" . -}}
+        {{- end }}
+    </footer>
+
+    {{- if (.Param "comments") }}
+    {{- partial "comments.html" . }}
+    {{- end }}
+</article>
+
+{{- end }}{{/* end main */}}

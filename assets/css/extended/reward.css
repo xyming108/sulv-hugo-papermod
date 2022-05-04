@@ -1,0 +1,75 @@
+/*打赏*/
+#QR {
+    padding: 10px 0 10px 0;
+}
+
+#QR a {
+    border: 0
+}
+
+#QR img {
+    width: 100px;
+    max-width: 100%;
+    display: inline-block;
+    margin: .8em 2em 0 2em
+}
+
+#rewardButton {
+    /*border:1px solid var(--content);*/
+    line-height: 36px;
+    text-align: center;
+    height: 36px;
+    display: block;
+    border-radius: 4px;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+    background-color: var(--code-bg);
+    color: var(--content);
+    margin: 0 auto;
+    padding: 0 25px
+}
+
+.dark #rewardButton {
+    border: 1px solid rgb(55 56 62);
+    line-height: 36px;
+    text-align: center;
+    height: 36px;
+    display: block;
+    border-radius: 4px;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+    background-color: rgb(55 56 62);
+    /*color: rgb(218 218 219);*/
+    color: rgba(180, 181, 182, 0.8);
+    margin: 0 auto;
+    padding: 0 25px
+}
+
+#rewardButton:hover {
+    color: var(--content);
+    /*border-color: #999;*/
+    outline-style: none;
+
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.08);
+}
+
+.dark #rewardButton:hover {
+    color: rgb(218 218 219);
+    background-color: var(--border);
+    /*border-color: rgb(218 218 219);*/
+    outline-style: none;
+
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.08);
+}

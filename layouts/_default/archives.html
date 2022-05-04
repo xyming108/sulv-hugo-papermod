@@ -1,0 +1,89 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+
+{{- if .Site.Params.ShowAllPagesInArchive }}
+{{- $pages = site.RegularPages }}
+{{- end }}
+
+{{- range $pages.GroupByPublishDate "2006" }}
+{{- if ne .Key "0001" }}
+<div class="archive-year">
+  <h2 class="archive-year-header">
+    {{- replace .Key "0001" "" }} 年<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
+  </h2>
+  {{- range .Pages.GroupByDate "January" }}
+  <div class="archive-month">
+    <h3 class="archive-month-header">
+      {{- if eq .Key "December" }}
+      {{ "12月" }}
+      {{- end }}
+      {{- if eq .Key "November" }}
+      {{ "11月" }}
+      {{- end }}
+      {{- if eq .Key "October" }}
+      {{ "10月" }}
+      {{- end }}
+      {{- if eq .Key "September" }}
+      {{ "9月" }}
+      {{- end }}
+      {{- if eq .Key "August" }}
+      {{ "8月" }}
+      {{- end }}
+      {{- if eq .Key "July" }}
+      {{ "7月" }}
+      {{- end }}
+      {{- if eq .Key "June" }}
+      {{ "6月" }}
+      {{- end }}
+      {{- if eq .Key "May" }}
+      {{ "5月" }}
+      {{- end }}
+      {{- if eq .Key "April" }}
+      {{ "4月" }}
+      {{- end }}
+      {{- if eq .Key "March" }}
+      {{ "3月" }}
+      {{- end }}
+      {{- if eq .Key "February" }}
+      {{ "2月" }}
+      {{- end }}
+      {{- if eq .Key "January" }}
+      {{ "1月" }}
+      {{- end }}
+      <!-- {{- .Key }} -->
+      <sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}
+      </sup>
+    </h3>
+    <div class="archive-posts">
+      {{- range .Pages }}
+      {{- if eq .Kind "page" }}
+      <div class="archive-entry">
+        <h3 class="archive-entry-title">
+          {{- .Title | markdownify }}
+          {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+        </h3>
+        <div class="archive-meta">
+          {{- partial "post_meta.html" . -}}
+        </div>
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+      </div>
+      {{- end }}
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+</div>
+{{- end }}
+{{- end }}
+
+{{- end }}{{/* end main */}}
