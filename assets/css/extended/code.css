@@ -1,0 +1,53 @@
+/*代码*/
+.post-content code {
+    font-size: 0.8em;
+    line-height: 1.4!important;
+    font-family: monospace!important;
+    /*font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;*/
+}
+
+.post-content .highlight pre {
+    tab-size: 4 !important;
+}
+
+.post-content .highlight:not(table), .post-content pre {
+    box-shadow: 1px 5px 5px 1px rgb(144 164 174 / 60%);
+    border-radius: var(--radius);
+}
+
+.dark .post-content .highlight:not(table), .post-content pre {
+    box-shadow: 1px 5px 5px 1px rgb(5 10 15 / 60%);
+    border-radius: var(--radius);
+}
+
+.post-content :not(table) ::-webkit-scrollbar-thumb {
+    /*border: 2px solid rgb(55, 65, 75);*/
+}
+
+.post-content pre code {
+    max-height: 50em;
+    margin-bottom: 2%;
+    /*background: var(--tag);*/
+    /*box-shadow: 5px 5px 5px rgb(68 68 68 / 60%);*/
+    /*background: var(--entry);*/
+    /*border: 2px 2px 2px 0px solid black;*/
+    /*background: rgb(55, 65, 75);*/
+}
+
+.dark .post-content pre code {
+    max-height: 50em;
+    margin-bottom: 2%;
+    color: rgba(180, 181, 182, 0.8);
+    /*box-shadow: 5px 5px 5px rgb(68 68 68 / 60%);*/
+    /*background: var(--hljs-bg);
+    border: 2px 2px 2px 0px solid black;*/
+    /*background: var(--tertiary);*/
+}
+
+/*.hljs {
+    color: black !important;
+}
+
+.dark .hljs {
+    color: #c0c5ce !important;
+}*/

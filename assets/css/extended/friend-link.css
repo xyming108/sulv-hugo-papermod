@@ -1,4 +1,16 @@
 /*友链---------------------------------------------------------------*/
+
+/*.friend ::-webkit-scrollbar-thumb {
+    border: 2px solid var(--code-bg);
+}
+
+.friend {
+    width: 102%;
+    max-height: 35em;
+    display: block;
+    overflow-x: auto;
+}*/
+
 .friendurl {
     text-decoration: none !important;
     color: black;

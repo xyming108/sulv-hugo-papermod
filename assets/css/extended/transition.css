@@ -1,0 +1,209 @@
+/*文章内的标签*/
+.post-tags a {
+    font-size: unset;
+
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+.post-tags a:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.08);
+}
+
+/*首页笑脸*/
+.profile .profile_inner h1 {
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+.profile .profile_inner h1:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*变换light dark*/
+#theme-toggle svg {
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+#theme-toggle svg:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+button#theme-toggle {
+    margin: auto 15px;
+}
+
+/*左上角名字*/
+.logo a {
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+.logo a:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.08);
+}
+
+.logo a img {
+    border-radius: 25px;
+}
+
+/*到顶部*/
+.top-link {
+    background: var(--entry);
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+    box-shadow: 1px 2px 2px 1px rgb(144 164 174 / 60%);
+}
+
+.dark .top-link {
+    background: var(--entry);
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+    box-shadow: 1px 5px 5px 1px rgb(5 10 15 / 60%);
+}
+.top-link:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*搜索*/
+#searchbox input {
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+#searchbox input:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.08);
+}
+
+/*最顶级页面*/
+.list {
+    /*-webkit-transition: all ease-out 0.2s;*/
+    /*-moz-transition: all ease-out 0.2s;*/
+    /*-o-transition: all ease-out 0.2s;*/
+    /*transition: all ease-out 0.2s;*/
+}
+
+/*时间轴*/
+.archive-entry {
+    -webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;
+}
+
+.archive-entry:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.03);
+}
+
+/*文章页*/
+.post-entry:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    /*transform: scale(1.03);*/
+    /*transform: scale(1.03) translateZ(0) translate3d(0, 0, 0) rotate(0.01deg);*/
+    transform: scale(1.03) translateZ(0) translate3d(0, 0, 0);
+}
+
+.post-entry {
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+    box-shadow: 1px 2px 2px 1px rgb(144 164 174 / 60%);
+}
+
+.dark .post-entry {
+    box-shadow: 1px 2px 2px 1px rgb(5 10 15 / 60%);
+}
+
+/*首页按钮*/
+.button:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    /*transform: scale(1.2);*/
+    /*transform: scale(1.2) translateZ(0) translate3d(0, 0, 0) rotate(0.01deg);*/
+    transform: scale(1.2) translateZ(0) translate3d(0, 0, 0);
+}
+
+.button {
+    background: var(--entry);
+    /*-webkit-transition: all ease-out 0.2s;*/
+    /*-moz-transition: all ease-out 0.2s;*/
+    /*-o-transition: all ease-out 0.2s;*/
+    /*transition: all ease-out 0.2s;*/
+    box-shadow: 1px 2px 2px 1px rgb(144 164 174 / 60%);
+}
+
+.dark .button {
+    background: var(--entry);
+    /*-webkit-transition: all ease-out 0.2s;*/
+    /*-moz-transition: all ease-out 0.2s;*/
+    /*-o-transition: all ease-out 0.2s;*/
+    /*transition: all ease-out 0.2s;*/
+    box-shadow: 1px 2px 2px 1px rgb(5 10 15 / 60%);
+}

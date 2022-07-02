@@ -13,11 +13,11 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- partialCached "header.html" . .Page -}}
-    <main class="main {{- if (eq .Kind `page`) -}}{{- print " page" -}}{{- end -}}">
-        {{- block "main" . }}{{ end }}
-    </main>
-    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+{{- partialCached "header.html" . .Page -}}
+<main class="main {{- if (eq .Kind `page`) -}}{{- print " page" -}}{{- end -}}">
+{{- block "main" . }}{{ end }}
+</main>
+{{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 </body>
 
 </html>

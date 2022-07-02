@@ -8,6 +8,9 @@ ppt: {{< ppt src="网址" >}}
 
 douban: {{< douban src="网址" >}}
 
-gallery: 
-- https://www.liwen.id.au/heg/
-- https://github.com/liwenyip/hugo-easy-gallery
+gallery:
+
+{{< gallery >}}
+{{< figure src="https://www.sulvblog.cn/image/11_Snipaste_2022-04-17_00-42-42.png" >}}
+{{< figure src="https://www.sulvblog.cn/image/12_Snipaste_2022-04-17_00-42-42.png" >}}
+{{< /gallery >}}

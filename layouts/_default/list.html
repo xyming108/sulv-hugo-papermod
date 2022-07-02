@@ -51,28 +51,28 @@
 
 <article class="{{ $class }}">
   <div class="post-info">
-  <header class="entry-header">
-    <h2>
-      {{- .Title }}
-      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
-    </h2>
-  </header>
-  {{- if (ne (.Param "hideSummary") true) }}
-  <section class="entry-content">
-    <p>
-    {{- if .Description }}
-    {{ .Description }}
+    <header class="entry-header">
+      <h2>
+        {{- .Title }}
+        {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+      </h2>
+    </header>
+    {{- if (ne (.Param "hideSummary") true) }}
+    <section class="entry-content">
+      <p>
+        {{- if .Description }}
+        {{ .Description }}
+        {{- end }}
+        <!-- {{ .Summary | plainify | htmlUnescape }} -->
+        {{ if .Truncated }}...{{ end }}
+      </p>
+    </section>
     {{- end }}
-    <!-- {{ .Summary | plainify | htmlUnescape }} -->
-    {{ if .Truncated }}...{{ end }}
-    </p>
-  </section>
-  {{- end }}
-  {{- if not (.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
-  </footer>
-  {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <footer class="entry-footer">
+      {{- partial "post_meta.html" . -}}
+    </footer>
+    {{- end }}
   </div>
   {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList) }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
@@ -83,29 +83,37 @@
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
   <nav class="pagination">
-    {{- if $paginator.HasPrev }}
-    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
-    {{- end }}
+    <!--    {{- if $paginator.HasPrev }}-->
+    <!--    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">{{ i18n "prev_page" }}</a>-->
+    <!--    {{- end }}-->
 
     {{- if not (eq $paginator.PageNumber 1) }}
-      <span class="numPrev">
-        {{ sub $paginator.PageNumber 1 }}
+    <span class="numFirst">
+        <a class="pageFirst" href="{{ $paginator.First.URL | absURL }}">{{ "1" }}</a>
+      </span>
+    &nbsp;...&nbsp;
+    <span class="numPrev">
+        <a class="pagePrev" href="{{ $paginator.Prev.URL | absURL }}">{{ sub $paginator.PageNumber 1 }}</a>
       </span>
     {{- end }}
 
     <span class="pageNum">
-      {{ $paginator.PageNumber }}
+      <a class="pageNow" href="{{ $paginator.URL | absURL }}">{{ $paginator.PageNumber }}</a>
     </span>
 
     {{- if not (eq $paginator.PageNumber $paginator.TotalPages) }}
-      <span class="numNext">
-        {{ add $paginator.PageNumber 1 }}
+    <span class="numNext">
+        <a class="pageNext" href="{{ $paginator.Next.URL | absURL }}">{{ add $paginator.PageNumber 1 }}</a>
+      </span>
+    &nbsp;...&nbsp;
+    <span class="numLast">
+        <a class="pageLast" href="{{ $paginator.Last.URL | absURL }}">{{ $paginator.TotalPages }}</a>
       </span>
     {{- end }}
 
-    {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
-    {{- end }}
+    <!--    {{- if $paginator.HasNext }}-->
+    <!--    <a class="next" href="{{ $paginator.Last.URL | absURL }}">{{ i18n "next_page" }}</a>-->
+    <!--    {{- end }}-->
   </nav>
 </footer>
 {{- end }}

@@ -1,0 +1,231 @@
+/*底部分页*/
+.pagination {
+    display: block;
+    text-align: center;
+}
+
+.pagination a {
+    color: var(--primary);
+    padding: 0 15px;
+    background: var(--entry);
+    box-shadow: 1px 2px 2px 1px rgb(144 164 174 / 60%);
+}
+
+.dark .pagination a {
+    box-shadow: 1px 2px 2px 1px rgb(5 10 15 / 60%);
+}
+
+.pagination .pageNum a {
+    box-shadow: none;
+}
+
+.pagination .prev {
+    box-shadow: 1px 2px 2px 1px rgb(144 164 174 / 60%);
+    display: inline-block;
+}
+
+.pagination .next {
+    box-shadow: 1px 2px 2px 1px rgb(144 164 174 / 60%);
+    display: inline-block;
+}
+
+.dark .pagination .prev {
+    box-shadow: 1px 5px 5px 1px rgb(5 10 15 / 60%);
+}
+
+.dark .pagination .next {
+    box-shadow: 1px 5px 5px 1px rgb(5 10 15 / 60%);
+}
+
+.pagination .pageNum {
+    margin: 0 0 0 0;
+    /*border-bottom: 2px solid var(--content);*/
+    /*font-size: 110%;*/
+    font-weight: 700;
+}
+
+.pagination .pageNum a {
+    color: var(--content);
+    background: var(--code-bg);
+}
+
+.dark .pagination .pageNum a {
+    color: var(--content);
+    background: var(--theme);
+}
+
+.pagination .numPrev {
+    color: var(--code-bg-border);
+}
+
+.pagination .numNext {
+    color: var(--code-bg-border);
+}
+
+a.pagePrev {
+    display: inline-block;
+
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+a.pagePrev:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+a.pageNow {
+    display: inline-block;
+
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+a.pageNow:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+a.pageNext {
+    display: inline-block;
+
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+a.pageNext:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+a.pageFirst {
+    display: inline-block;
+
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+a.pageFirst:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+a.pageLast {
+    display: inline-block;
+
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+a.pageLast:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+/*下一页*/
+.pagination .next {
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+.pagination .next:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*上一页*/
+.pagination .prev {
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+.pagination .prev:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*文章内的上一页*/
+.paginav .prev {
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+.paginav .prev:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.03);
+}
+
+/*文章内的下一页*/
+.paginav .next {
+    /*-webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;*/
+}
+
+.paginav .next:hover {
+    transition: transform 0.5s;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.03);
+}
