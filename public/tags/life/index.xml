@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>life on Sulv&#39;s Blog</title>
+    <link>https://www.sulvblog.cn/tags/life/</link>
+    <description>Recent content in life on Sulv&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 05 May 2022 00:18:15 +0800</lastBuildDate><atom:link href="https://www.sulvblog.cn/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life</title>
+      <link>https://www.sulvblog.cn/posts/life/life/</link>
+      <pubDate>Thu, 05 May 2022 00:18:15 +0800</pubDate>
+      
+      <guid>https://www.sulvblog.cn/posts/life/life/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
