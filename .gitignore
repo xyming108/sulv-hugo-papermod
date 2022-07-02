@@ -2,3 +2,4 @@ themes/PaperMod/.git
 public
 .hugo_build.lock
 .idea
+.DS_Store
