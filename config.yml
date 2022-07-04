@@ -2,7 +2,7 @@ baseURL: https://www.sulvblog.cn
 # baseURL: https://www.sulvblog.cn  # 绑定的域名
 languageCode: zh-cn # en-us
 title: Sulv's Blog
-theme: PaperMod  # 主题名字，和themes文件夹下的一致
+theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
 
 enableInlineShortcodes: true
 enableEmoji: true # 允许使用 Emoji 表情，建议 true
