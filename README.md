@@ -1,10 +1,10 @@
 ## 1. git clone 拉取代码
 
-用`git clone`的方式拉取代码至桌面，进入到sulv-hugo-papermod目录，在该目录打开终端，输入`hugo server -D`，在浏览器输入：localhost:1313即可看到现成的博客模板
+用`git clone`的方式拉取代码至桌面，进入到sulv-hugo-papermod目录，在该目录打开终端，定位到themes/PaperMod/下，打开终端，输入`git pull`，从PaperMod的官方主题中拉取最新代码，PaperMod主题官方地址：[https://github.com/adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
 
-## 2. themes代码和官方保持一致
+## 2. 启动界面
 
-定位到themes/PaperMod/下，打开终端，输入`git pull`，从PaperMod的官方主题中拉取最新代码，PaperMod主题官方地址：[https://github.com/adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+把目录回退到sulv-hugo-papermod，在终端输入`hugo server -D`，在浏览器输入：localhost:1313即可看到现成的博客模板
 
 ## 3. 修改信息
 
