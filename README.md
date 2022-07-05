@@ -2,7 +2,7 @@
 
 ① 用`git clone`的方式拉取代码至桌面，此时会在桌面生成sulv-hugo-papermod目录
 
-② 进入到sulv-hugo-papermod目录，输入`git submodule update --init`，表示拉取themes/hugo_PaperMod/下的子模块，里面放的是官方主题
+② 进入到sulv-hugo-papermod目录，输入`git submodule update --init`，表示拉取themes/hugo-PaperMod/下的子模块，里面放的是官方主题
 
 ## 2. 启动界面
 
