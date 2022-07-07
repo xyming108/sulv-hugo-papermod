@@ -1,7 +1,12 @@
 {{- define "main" }}
 
+{{ $postss := (where .Site.RegularPages "Section" "==" "posts") }}
+{{ $postCount := len $postss }}
+
 <header class="page-header">
-  <h1>{{ .Title }}</h1>
+  <h1>
+    {{ .Title }} <sup class="archive-count-title" style="font-size: 20px; color: var(--secondary);">&nbsp;&nbsp;{{ $postCount }} </sup>
+  </h1>
   {{- if .Description }}
   <div class="post-description">
     {{ .Description }}
