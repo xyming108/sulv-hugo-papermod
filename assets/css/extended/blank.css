@@ -38,19 +38,19 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 }
 
 .post-content h3 {
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .post-content h4 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .post-content h5 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .post-content h6 {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .post-content p {
@@ -58,10 +58,10 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     /*text-indent: 2em;*/ /*所有首行缩进*/
 }
 
-/*---------------------------------------------------*/
-
-.dark body, .dark a, .dark .post-title {
-    color: rgba(180, 181, 182, 0.8);
+.dark .post-content h1, .dark .post-content h2, .dark .post-content h3,
+.dark .post-content h4, .dark .post-content h5, .dark .post-content h6,
+.dark .post-title {
+    color: var(--content);
 }
 
 .dark h1, .dark h2,
@@ -70,8 +70,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .dark p {
     color: rgba(180, 181, 182, 0.8);
 }
-
-.dark .toc .details {
+.dark body, .dark a, .dark .toc .details {
     color: rgba(180, 181, 182, 0.8);
 }
 
