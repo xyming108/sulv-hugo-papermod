@@ -1,3 +1,5 @@
+Language：English | [中文](https://github.com/xyming108/sulv-hugo-papermod)
+
 ## 1. Git clone pull code
 
 ① Use `git clone` to pull the code to the desktop. At this time, the sulv Hugo papermod directory will be generated on the desktop

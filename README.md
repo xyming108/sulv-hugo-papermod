@@ -1,4 +1,4 @@
-语言：中文 | [英文]()
+语言：中文 | [English](https://github.com/xyming108/sulv-hugo-papermod/blob/main/static/README_EN.md)
 
 ## 1. git clone 拉取代码
 
