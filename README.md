@@ -30,7 +30,7 @@
 
 ```
 # src中的链接一定不要加https://或http://，可以选择不加www；若desc写了，则在浏览器会显示desc的值
-link: {{< link src="www.sulvblog.cn" desc="sulv的博客" >}}
+link: {{< link src="www.sulvblog.cn" desc="https://www.sulvblog.cn" >}}
 ```
 
 ```
