@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <a
+        href="https://{{ .Get "src" }}"
+        target="_blank"
+        rel="noopener noreferrer me"
+    >
+    {{- if (.Get "desc") }}
+        {{ .Get "desc" }}
+    {{- else -}}
+        {{ .Get "src" }}
+    {{- end }}
+    </a>
+</div>
+</body>
+</html>
