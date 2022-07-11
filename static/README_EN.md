@@ -29,7 +29,7 @@ There are many personal information in the template that need to be configured b
 `douban: {{< douban src="网址" >}}`
 
 ```
-# Links in SRC must not be added with HTTPS or HTTP, and you can choose not to add WWW; If desc is written, the value of desc will be displayed in the browser
+# Links in SRC must not be added with https:// or http://, and you can choose not to add WWW; If desc is written, the value of desc will be displayed in the browser
 link: {{< link src="www.sulvblog.cn" desc="sulv的博客" >}}
 ```
 
