@@ -239,3 +239,8 @@ body {
 .top-link {
     padding: unset;
 }
+
+/*---------表格换行---------------*/
+.post-content table {
+    word-break: normal;
+}
