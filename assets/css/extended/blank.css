@@ -240,7 +240,10 @@ body {
     padding: unset;
 }
 
-/*---------表格换行---------------*/
+/*---------表格---------------*/
 .post-content table {
     word-break: normal;
+}
+.post-content table th {
+    font-size: 18px;
 }
