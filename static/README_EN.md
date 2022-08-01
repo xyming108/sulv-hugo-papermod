@@ -41,3 +41,8 @@ gallery:
 {{< figure src="https://www.sulvblog.cn/posts/read/structural_thinking/0.png" >}}
 {{< /gallery >}}
 ```
+
+## 5. Possible problems
+
+
+1. Some users will deploy to GitHub and may encounter cross system problems, such as the prompt `lf will be replaced by CRLF in *******`, and then enter the command: `git config core.autocrlf false`, which solves the problem of automatic conversion of line breaks.

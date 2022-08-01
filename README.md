@@ -42,3 +42,6 @@ gallery:
 {{< /gallery >}}
 ```
 
+## 5. 可能遇到的问题
+
+1. 有些使用者会部署到github，可能遇到跨系统的问题，如提示`LF will be replaced by CRLF in ******`，这时输入命令：`git config core.autocrlf false`，解决换行符自动转换的问题。
