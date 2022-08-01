@@ -8,7 +8,7 @@ Language：English | [中文](https://github.com/xyming108/sulv-hugo-papermod)
 
 ## 2. Startup interface
 
-③ Return the directory to sulv Hugo papermod, enter `Hugo server -d` in the terminal, and enter: localhost:1313 in the browser to see the ready-made blog template.
+③ Return the directory to sulv Hugo papermod, enter `hugo server -d` in the terminal, and enter: localhost:1313 in the browser to see the ready-made blog template.
 
 ## 3. Modify information
 
@@ -45,4 +45,4 @@ gallery:
 ## 5. Possible problems
 
 
-1. Some users will deploy to GitHub and may encounter cross system problems, such as the prompt `lf will be replaced by CRLF in *******`, and then enter the command: `git config core.autocrlf false`, which solves the problem of automatic conversion of line breaks.
+1. Some users will deploy to GitHub and may encounter cross system problems, such as the prompt `lf will be replaced by CRLF in *******`, and then enter the command: `git config core.autocrlf false`, which solves the problem of automatic conversion of line breaks。
