@@ -50,26 +50,26 @@
     /*border-color: #999;*/
     outline-style: none;
 
-    transition: transform 0.5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.08);
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
 
 .dark #rewardButton:hover {
-    color: rgb(218 218 219);
+    color: rgba(180,181,182,.8);
     background-color: var(--border);
     /*border-color: rgb(218 218 219);*/
     outline-style: none;
 
-    transition: transform 0.5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.08);
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
 }

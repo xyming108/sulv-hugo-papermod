@@ -24,10 +24,11 @@ Grid Layout Styles
 
 .gallery .box:hover {
     /*filter: blur(0);*/
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
 
 .post-content figure > figcaption > p {
@@ -68,10 +69,11 @@ Transition styles
 .gallery.hover-effect-zoom .img,
 .gallery:not(.caption-effect-appear) figcaption,
 .fancy-figure:not(.caption-effect-appear) figcaption {
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
 
 /*

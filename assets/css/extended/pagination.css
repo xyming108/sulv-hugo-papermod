@@ -8,11 +8,11 @@
     color: var(--primary);
     padding: 0 15px;
     background: var(--entry);
-    box-shadow: 1px 2px 2px 1px rgb(144 164 174 / 60%);
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
 }
 
 .dark .pagination a {
-    box-shadow: 1px 2px 2px 1px rgb(5 10 15 / 60%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .pagination .pageNum a {
@@ -20,21 +20,21 @@
 }
 
 .pagination .prev {
-    box-shadow: 1px 2px 2px 1px rgb(144 164 174 / 60%);
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
     display: inline-block;
 }
 
 .pagination .next {
-    box-shadow: 1px 2px 2px 1px rgb(144 164 174 / 60%);
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
     display: inline-block;
 }
 
 .dark .pagination .prev {
-    box-shadow: 1px 5px 5px 1px rgb(5 10 15 / 60%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .pagination .next {
-    box-shadow: 1px 5px 5px 1px rgb(5 10 15 / 60%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .pagination .pageNum {
@@ -65,167 +65,288 @@
 a.pagePrev {
     display: inline-block;
 
-    /*-webkit-transition: all ease-out 0.2s;
-    -moz-transition: all ease-out 0.2s;
-    -o-transition: all ease-out 0.2s;
-    transition: all ease-out 0.2s;*/
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+.dark a.pagePrev {
+    display: inline-block;
+
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pagePrev:hover {
-    transition: transform 0.5s;
-
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+.dark a.pagePrev:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageNow {
     display: inline-block;
-
-    /*-webkit-transition: all ease-out 0.2s;
-    -moz-transition: all ease-out 0.2s;
-    -o-transition: all ease-out 0.2s;
-    transition: all ease-out 0.2s;*/
 }
 
 a.pageNow:hover {
-    transition: transform 0.5s;
-
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
 }
 
 a.pageNext {
     display: inline-block;
 
-    /*-webkit-transition: all ease-out 0.2s;
-    -moz-transition: all ease-out 0.2s;
-    -o-transition: all ease-out 0.2s;
-    transition: all ease-out 0.2s;*/
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+.dark a.pageNext {
+    display: inline-block;
+
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageNext:hover {
-    transition: transform 0.5s;
-
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+.dark a.pageNext:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageFirst {
     display: inline-block;
 
-    /*-webkit-transition: all ease-out 0.2s;
-    -moz-transition: all ease-out 0.2s;
-    -o-transition: all ease-out 0.2s;
-    transition: all ease-out 0.2s;*/
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+.dark a.pageFirst {
+    display: inline-block;
+
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageFirst:hover {
-    transition: transform 0.5s;
-
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+.dark a.pageFirst:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageLast {
     display: inline-block;
 
-    /*-webkit-transition: all ease-out 0.2s;
-    -moz-transition: all ease-out 0.2s;
-    -o-transition: all ease-out 0.2s;
-    transition: all ease-out 0.2s;*/
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+.dark a.pageLast {
+    display: inline-block;
+
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageLast:hover {
-    transition: transform 0.5s;
-
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
 }
 
-
-/*下一页*/
-.pagination .next {
-    /*-webkit-transition: all ease-out 0.2s;
-    -moz-transition: all ease-out 0.2s;
-    -o-transition: all ease-out 0.2s;
-    transition: all ease-out 0.2s;*/
-}
-
-.pagination .next:hover {
-    transition: transform 0.5s;
-
+.dark a.pageLast:hover {
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 /*上一页*/
 .pagination .prev {
-    /*-webkit-transition: all ease-out 0.2s;
-    -moz-transition: all ease-out 0.2s;
-    -o-transition: all ease-out 0.2s;
-    transition: all ease-out 0.2s;*/
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+.dark .pagination .prev {
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .pagination .prev:hover {
-    transition: transform 0.5s;
-
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+.dark .pagination .prev:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+}
+
+/*下一页*/
+.pagination .next {
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+.dark .pagination .next {
+    -webkit-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease, transform 0.4s ease;
+    -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+}
+
+.pagination .next:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+.dark .pagination .next:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 /*文章内的上一页*/
 .paginav .prev {
-    /*-webkit-transition: all ease-out 0.2s;
-    -moz-transition: all ease-out 0.2s;
-    -o-transition: all ease-out 0.2s;
-    transition: all ease-out 0.2s;*/
 }
 
 .paginav .prev:hover {
-    transition: transform 0.5s;
+    background: rgb(220, 220, 220);
+}
 
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.03);
+.dark .paginav .prev:hover {
+    background: var(--border);
 }
 
 /*文章内的下一页*/
 .paginav .next {
-    /*-webkit-transition: all ease-out 0.2s;
-    -moz-transition: all ease-out 0.2s;
-    -o-transition: all ease-out 0.2s;
-    transition: all ease-out 0.2s;*/
 }
 
 .paginav .next:hover {
-    transition: transform 0.5s;
+    background: rgb(220, 220, 220);
+}
 
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.03);
+.dark .paginav .next:hover {
+    background: var(--border);
 }
