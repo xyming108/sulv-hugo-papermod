@@ -8,11 +8,11 @@
     color: var(--primary);
     padding: 0 15px;
     background: var(--entry);
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .pagination a {
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .pagination .pageNum a {
@@ -20,21 +20,21 @@
 }
 
 .pagination .prev {
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
     display: inline-block;
 }
 
 .pagination .next {
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
     display: inline-block;
 }
 
 .dark .pagination .prev {
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .pagination .next {
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .pagination .pageNum {
@@ -70,7 +70,7 @@ a.pagePrev {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pagePrev {
@@ -81,7 +81,7 @@ a.pagePrev {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pagePrev:hover {
@@ -92,7 +92,7 @@ a.pagePrev:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pagePrev:hover {
@@ -103,7 +103,7 @@ a.pagePrev:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageNow {
@@ -121,7 +121,7 @@ a.pageNext {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pageNext {
@@ -132,7 +132,7 @@ a.pageNext {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageNext:hover {
@@ -143,7 +143,7 @@ a.pageNext:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pageNext:hover {
@@ -154,7 +154,7 @@ a.pageNext:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageFirst {
@@ -165,7 +165,7 @@ a.pageFirst {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pageFirst {
@@ -176,7 +176,7 @@ a.pageFirst {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageFirst:hover {
@@ -187,7 +187,7 @@ a.pageFirst:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pageFirst:hover {
@@ -198,7 +198,7 @@ a.pageFirst:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageLast {
@@ -209,7 +209,7 @@ a.pageLast {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pageLast {
@@ -220,7 +220,7 @@ a.pageLast {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 a.pageLast:hover {
@@ -231,7 +231,7 @@ a.pageLast:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pageLast:hover {
@@ -242,7 +242,7 @@ a.pageLast:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 /*上一页*/
@@ -252,7 +252,7 @@ a.pageLast:hover {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .pagination .prev {
@@ -261,7 +261,7 @@ a.pageLast:hover {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .pagination .prev:hover {
@@ -272,7 +272,7 @@ a.pageLast:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .pagination .prev:hover {
@@ -283,7 +283,7 @@ a.pageLast:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 /*下一页*/
@@ -293,7 +293,7 @@ a.pageLast:hover {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .pagination .next {
@@ -302,7 +302,7 @@ a.pageLast:hover {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .pagination .next:hover {
@@ -313,7 +313,7 @@ a.pageLast:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .pagination .next:hover {
@@ -324,7 +324,7 @@ a.pageLast:hover {
     transform: scale(1.2);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 /*文章内的上一页*/
