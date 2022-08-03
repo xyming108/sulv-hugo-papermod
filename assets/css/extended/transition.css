@@ -72,7 +72,7 @@ button#theme-toggle {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .top-link {
@@ -96,7 +96,7 @@ button#theme-toggle {
     transform: scale(1.1);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .top-link:hover {
@@ -150,7 +150,7 @@ button#theme-toggle {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .post-entry {
@@ -170,7 +170,7 @@ button#theme-toggle {
     transform: scale(1.02);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .post-entry:hover {
@@ -193,7 +193,7 @@ button#theme-toggle {
     -o-transition: box-shadow 0.4s ease, transform 0.4s ease;
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+    box-shadow: 0px 2px 4px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .button {
@@ -216,7 +216,7 @@ button#theme-toggle {
     transform: scale(1.1);
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+    box-shadow: 0px 4px 8px rgb(5 10 15 / 40%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
     /*-webkit-transform: translateY(-4px);*/
     /*-moz-transform: translateY(-4px);*/
     /*-ms-transform: translateY(-4px);*/
