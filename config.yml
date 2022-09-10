@@ -1,5 +1,4 @@
-baseURL: https://www.sulvblog.cn
-# baseURL: https://www.sulvblog.cn  # 绑定的域名
+baseURL: https://www.sulvblog.cn # 绑定的域名
 languageCode: zh-cn # en-us
 title: Sulv's Blog
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
@@ -7,7 +6,6 @@ theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
 enableInlineShortcodes: true
 enableEmoji: true # 允许使用 Emoji 表情，建议 true
 enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
-
 hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
 
 buildDrafts: false
@@ -89,9 +87,10 @@ outputs:
         - RSS
         - JSON
 
+# 这里的参数会被代码以 .Site.Params 的形式读取
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Sulv的个人博客，hugo，papermod，golang，mysql，redis，微服务"
+    description: ""
     author: Sulv
     # author: ["Me", "You"] # multiple authors
 
@@ -108,7 +107,6 @@ params:
     hideFooter: false # 隐藏页脚
     ShowWordCounts: true
     VisitCount: true
-    Reward: true #打赏
     ShowLastMod: true #显示文章更新时间
 
     ShowToc: true # 显示目录
@@ -165,8 +163,18 @@ params:
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary"]
 
+    Reward: true #打赏是否开启
+    # 打赏微信图片地址，
+    # 可用绝对和相对地址，相对地址的图片需放在static/img下，
+    # 填写格式为img/wechat_pay.png
+    WechatPay: img/wechat_pay.png
+    Alipay: img/alipay.png #打赏支付宝图片地址
+
+    # twikoo评论
     twikoo:
       version: 1.5.8
+      id:  # 填写自己的twikoo id
+      region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
 
 taxonomies:
     category: categories

@@ -21,10 +21,10 @@
 
     <script>
         twikoo.init({
-            envId: "", //填自己的
+            envId: {{ .Site.Params.twikoo.id }}, //填自己的
             el: "#tcomment",
             lang: 'zh-CN',
-            region: 'ap-guangzhou',
+            region: {{ .Site.Params.twikoo.region }},
             path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
             // onCommentLoaded: function () {
             //     $(".tk-content img:not(.tk-avatar-img)").each(function () {
