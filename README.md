@@ -1,5 +1,7 @@
 语言：中文 | [English](https://github.com/xyming108/sulv-hugo-papermod/blob/main/static/README_EN.md)
 
+> 该主题根据Hugo PaperMod主题修改而来: https://github.com/adityatelange/hugo-PaperMod
+
 ## 1. git clone 拉取代码
 
 ① 用`git clone`的方式拉取代码至桌面，此时会在桌面生成sulv-hugo-papermod目录
