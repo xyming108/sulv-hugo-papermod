@@ -91,7 +91,11 @@
     <span class="numFirst">
         <a class="pageFirst" href="{{ $paginator.First.URL | absURL }}">{{ "1" }}</a>
       </span>
+    {{- end }}
+    {{- if gt (sub $paginator.PageNumber 1) 2 }}
     &nbsp;...&nbsp;
+    {{- end }}
+    {{- if gt (sub $paginator.PageNumber 1) 1 }}
     <span class="numPrev">
         <a class="pagePrev" href="{{ $paginator.Prev.URL | absURL }}">{{ sub $paginator.PageNumber 1 }}</a>
       </span>
@@ -101,11 +105,15 @@
       <a class="pageNow" href="{{ $paginator.URL | absURL }}">{{ $paginator.PageNumber }}</a>
     </span>
 
-    {{- if not (eq $paginator.PageNumber $paginator.TotalPages) }}
+    {{- if lt (add $paginator.PageNumber 1) $paginator.TotalPages }}
     <span class="numNext">
         <a class="pageNext" href="{{ $paginator.Next.URL | absURL }}">{{ add $paginator.PageNumber 1 }}</a>
       </span>
+    {{- end }}
+    {{- if lt (add $paginator.PageNumber 2) $paginator.TotalPages }}
     &nbsp;...&nbsp;
+    {{- end }}
+    {{- if not (eq $paginator.PageNumber $paginator.TotalPages) }}
     <span class="numLast">
         <a class="pageLast" href="{{ $paginator.Last.URL | absURL }}">{{ $paginator.TotalPages }}</a>
       </span>
