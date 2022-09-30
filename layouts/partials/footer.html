@@ -15,17 +15,18 @@
     <span>
         Copyright
         &copy;
-        2020-{{ now.Year }} 
+        {{ .Site.Params.StartYear }}-{{ now.Year }}
         <a href="{{ "" | absLangURL }}" style="color:#939393;">{{ .Site.Title }}</a>
-         All Rights Reserved
+        All Rights Reserved
     </span>
 
-    <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;">填自己的备案号</a>&nbsp;
+    <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;">{{ .Site.Params.FilingNo }}</a>&nbsp;
 
     <span>
-        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=null"style="display:inline-block;text-decoration:none;height:20px;color:#939393;">
-            <img src="填自己的公安图标链接" style="float:left;margin: 0px 5px 0px 0px;"/>
-            填自己的 公网安备
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=null"
+           style="display:inline-block;text-decoration:none;height:20px;color:#939393;">
+            <img src="{{ .Site.Params.PublicSecurityIconLink }}" style="float:left;margin: 0px 5px 0px 0px;"/>
+            {{ .Site.Params.PublicNetworkSecurity }}
         </a>
     </span>
 
@@ -36,7 +37,7 @@
     </span>
 
     {{- end }}
-    
+
 </footer>
 {{- end }}
 
@@ -96,7 +97,7 @@
 
 {{- if (not .Site.Params.disableScrollToTop) }}
 <script>
-    var mybutton = document.getElementById("top-link");
+    let mybutton = document.getElementById("top-link");
     window.onscroll = function () {
         if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
             mybutton.style.visibility = "visible";
@@ -132,12 +133,22 @@
                 e.preventDefault();
                 let htmlData = window.getSelection().toString() +
                     '\r\n\n————————————————\r\n' +
-                    '版权声明：本文为「'+{{ .Site.Title }}+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
-                    '\r\n原文链接：' + location.href;
+                    '版权声明：本文为「' + {
+                { .
+                    Site.Title
+                }
+            }
+                +'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
                 let textData = window.getSelection().toString() +
                     '\r\n\n————————————————\r\n' +
-                    '版权声明：本文为「'+{{ .Site.Title }}+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
-                    '\r\n原文链接：' + location.href;
+                    '版权声明：本文为「' + {
+                { .
+                    Site.Title
+                }
+            }
+                +'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
                 clipboardData.setData('text/html', htmlData);
                 clipboardData.setData('text/plain', textData);
             }
@@ -165,8 +176,9 @@
             if ('clipboard' in navigator) {
                 let text = codeblock.textContent +
                     '\r\n————————————————\r\n' +
-                    '版权声明：本文为「'+{{ .Site.Title }}+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
-                    '\r\n原文链接：' + location.href;
+                    '版权声明：本文为「' + {{ .Site.Title }}
+                +'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
                 navigator.clipboard.writeText(text);
                 copyingDone();
                 return;
@@ -188,9 +200,9 @@
 
         if (container.classList.contains("highlight")) {
             container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
+        } else if (container.parentNode.firstChild === container) {
             // td containing LineNos
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName === "TABLE") {
             // table containing LineNos and code
             codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
         } else {

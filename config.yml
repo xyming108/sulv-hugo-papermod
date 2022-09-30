@@ -18,8 +18,8 @@ googleAnalytics:  # 谷歌统计
 paginate: 15    # 首页每页显示的文章数
 
 minify:
-    disableXML: true
-    # minifyOutput: true
+  disableXML: true
+  # minifyOutput: true
 
 permalinks: # 访问博客时网址的显示形式
   post: "/:title/"
@@ -29,199 +29,204 @@ defaultContentLanguage: en # 最顶部首先展示的语言页面
 defaultContentLanguageInSubdir: true
 
 languages:
-    en:
-      languageName: "English"
-      weight: 1
-      profileMode:
-        enabled: true
-        title: (〃'▽'〃)
-        subtitle: 
-        # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
-        imageUrl: "img/Q.gif"
-        imageTitle: 
-        imageWidth: 150
-        imageHeight: 150
-        buttons:
-          - name: 🧱 建站
-            url: posts/blog
-          - name: 👨🏻‍💻 技术
-            url: posts/tech
-          - name: 📕 阅读
-            url: posts/read
-          - name: 🏖 生活
-            url: posts/life
-      menu:
-        main:
-          - identifier: search
-            name: 🔍 搜索
-            url: search
-            weight: 1
-          - identifier: home
-            name: 🏠 主页
-            url: /
-            weight: 2
-          - identifier: posts
-            name: 📚 文章
-            url: posts
-            weight: 3
-          - identifier: tags
-            name: 🧩 标签
-            url: tags
-            weight: 15
-          - identifier: archives
-            name: ⏱ 时间轴
-            url: archives/
-            weight: 20
-          - identifier: about
-            name: 🙋🏻‍♂️ 关于
-            url: about
-            weight: 50
-          - identifier: links
-            name: 🤝 友链
-            url: links
-            weight: 60
+  en:
+    languageName: "English"
+    weight: 1
+    profileMode:
+      enabled: true
+      title: (〃'▽'〃)
+      subtitle:
+      # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
+      imageUrl: "img/Q.gif"
+      imageTitle:
+      imageWidth: 150
+      imageHeight: 150
+      buttons:
+        - name: 🧱 建站
+          url: posts/blog
+        - name: 👨🏻‍💻 技术
+          url: posts/tech
+        - name: 📕 阅读
+          url: posts/read
+        - name: 🏖 生活
+          url: posts/life
+    menu:
+      main:
+        - identifier: search
+          name: 🔍 搜索
+          url: search
+          weight: 1
+        - identifier: home
+          name: 🏠 主页
+          url: /
+          weight: 2
+        - identifier: posts
+          name: 📚 文章
+          url: posts
+          weight: 3
+        - identifier: tags
+          name: 🧩 标签
+          url: tags
+          weight: 15
+        - identifier: archives
+          name: ⏱ 时间轴
+          url: archives/
+          weight: 20
+        - identifier: about
+          name: 🙋🏻‍♂️ 关于
+          url: about
+          weight: 50
+        - identifier: links
+          name: 🤝 友链
+          url: links
+          weight: 60
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 # 这里的参数会被代码以 .Site.Params 的形式读取
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: ""
-    author: Sulv
-    # author: ["Me", "You"] # multiple authors
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: ""
+  author: Sulv
+  # author: ["Me", "You"] # multiple authors
 
-    defaultTheme: auto  # defaultTheme: light or  dark 
-    disableThemeToggle: false
-    DateFormat: "2006-01-02"
-    ShowShareButtons: true
-    ShowReadingTime: true
-    # disableSpecialistPost: true
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    hideFooter: false # 隐藏页脚
-    ShowWordCounts: true
-    VisitCount: true
-    ShowLastMod: true #显示文章更新时间
+  defaultTheme: auto  # defaultTheme: light or  dark
+  disableThemeToggle: false
+  DateFormat: "2006-01-02"
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecialistPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideFooter: false # 隐藏页脚
+  ShowWordCounts: true
+  VisitCount: true
+  ShowLastMod: true #显示文章更新时间
 
-    ShowToc: true # 显示目录
-    TocOpen: true # 自动展开目录
+  ShowToc: true # 显示目录
+  TocOpen: true # 自动展开目录
 
-    comments: true
-    socialIcons:
-        - name: github
-          url: "https://github.com/xyming108"
-        - name: twitter
-          url:  "img/twitter.png"
-        - name: facebook
-          url: "https://www.facebook.com/profile.php?id=100027782410997"
-        - name: instagram
-          url: "img/instagram.png"
-        - name: QQ
-          url: "img/qq.png"
-        - name: WeChat
-          url: "img/wechat.png"
-        - name: bilibili
-          url: "https://space.bilibili.com/234461224"
-        - name: email
-          url: "mailto:1931559710@qq.com"
-        - name: RSS
-          url: "index.xml"
+  comments: true
+  socialIcons:
+    - name: github
+      url: "https://github.com/xyming108"
+    - name: twitter
+      url: "img/twitter.png"
+    - name: facebook
+      url: "https://www.facebook.com/profile.php?id=100027782410997"
+    - name: instagram
+      url: "img/instagram.png"
+    - name: QQ
+      url: "img/qq.png"
+    - name: WeChat
+      url: "img/wechat.png"
+    - name: bilibili
+      url: "https://space.bilibili.com/234461224"
+    - name: email
+      url: "mailto:1931559710@qq.com"
+    - name: RSS
+      url: "index.xml"
 
-    label:
-        text: "Sulv's Blog"
-        icon: "img/Q.gif"
-        iconHeight: 35
+  label: # 左上角图标
+    text: "Sulv's Blog"
+    icon: "img/Q.gif"
+    iconHeight: 35
 
-    analytics:
-        google:
-            SiteVerificationTag: ""
+  analytics:
+    google:
+      SiteVerificationTag: ""
 
-    assets:
-        favicon: "img/Q.gif"
-        favicon16x16: "img/Q.gif"
-        favicon32x32: "img/Q.gif"
-        apple_touch_icon: "img/Q.gif"
-        safari_pinned_tab: "img/Q.gif"
+  assets:
+    favicon: "img/Q.gif"
+    favicon16x16: "img/Q.gif"
+    favicon32x32: "img/Q.gif"
+    apple_touch_icon: "img/Q.gif"
+    safari_pinned_tab: "img/Q.gif"
 
-    cover:
-        hidden: false # hide everywhere but not in structured data
-        hiddenInList: false # hide on list pages and home
-        hiddenInSingle: false # hide on single page
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary"]
+  fuseOpts: # 搜索配置
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: [ "title", "permalink", "summary" ]
 
-    Reward: true #打赏是否开启
-    # 打赏微信图片地址，
-    # 可用绝对和相对地址，相对地址的图片需放在static/img下，
-    # 填写格式为img/wechat_pay.png
-    WechatPay: img/wechat_pay.png
-    Alipay: img/alipay.png #打赏支付宝图片地址
+  StartYear: 2020 # 底部开始年份
+  FilingNo: 填写自己的备案号 # 底部备案号
+  PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
+  PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
 
-    # twikoo评论
-    twikoo:
-      version: 1.5.8
-      id:  # 填写自己的twikoo id
-      region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
+  Reward: true #打赏是否开启
+  # 打赏微信图片地址，
+  # 可用绝对和相对地址，相对地址的图片需放在static/img下，
+  # 填写格式为img/wechat_pay.png
+  WechatPay: img/wechat_pay.png
+  Alipay: img/alipay.png #打赏支付宝图片地址
+
+  # twikoo评论
+  twikoo:
+    version: 1.5.8 # 填写twikoo版本号
+    id:  # 填写自己的twikoo id
+    region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
 
 taxonomies:
-    category: categories
-    tag: tags
-    series: series
+  category: categories
+  tag: tags
+  series: series
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true # HUGO 默认转义 Markdown 文件中的 HTML 代码，如需开启的话
-    highlight:
-        # anchorLineNos: true
-        codeFences: true  
-        guessSyntax: true
-        # lineNos: true
-        noClasses: true
-        tabWidth: 4
-        style: monokai
-        # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
-        # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。
-        # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。
-        # lineNoStart：行号从编号几开始，一般从 1 开始。
-        # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true.
-        # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
-        # noClasses：使用 class 标签，而不是内嵌的内联样式
+  goldmark:
+    renderer:
+      unsafe: true # HUGO 默认转义 Markdown 文件中的 HTML 代码，如需开启的话
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    # lineNos: true
+    noClasses: true
+    tabWidth: 4
+    style: monokai
+    # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
+    # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。
+    # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。
+    # lineNoStart：行号从编号几开始，一般从 1 开始。
+    # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true.
+    # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
+    # noClasses：使用 class 标签，而不是内嵌的内联样式
 
 privacy:
-    vimeo:
-        disabled: false
-        simple: true
+  vimeo:
+    disabled: false
+    simple: true
 
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
 
-    instagram:
-        disabled: false
-        simple: true
+  instagram:
+    disabled: false
+    simple: true
 
-    youtube:
-        disabled: false
-        privacyEnhanced: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
 
 services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
         
