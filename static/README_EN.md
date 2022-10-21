@@ -18,7 +18,7 @@ There are many personal information in the template that need to be configured b
 
 🎉🎉 787018782 🎉🎉
 
-<img src="https://github.com/xyming108/sulv-hugo-papermod/blob/main/static/img/hugo_group.png" />
+<kbd>[![](https://github.com/xyming108/sulv-hugo-papermod/blob/main/static/img/hugo_group.png)](https://github.com/xyming108)</kbd>
 
 ## 5. How to use shortcodes
 
