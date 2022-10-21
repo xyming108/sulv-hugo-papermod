@@ -31,7 +31,7 @@ There are many personal information in the template that need to be configured b
 `douban: {{< douban src="网址" >}}`
 
 ```
-#Intra article link
+#Intra article link card
 #To add md at the end, you can only fill in the relative path, as shown below
 {{< innerlink src="posts/tech/mysql_1.md" >}}
 ```

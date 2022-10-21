@@ -20,7 +20,10 @@
 
 🎉🎉 787018782 🎉🎉
 
+<div align="center" style="zoom: 40%">
+
 [![](https://www.sulvblog.cn/links/hugo_group.png)](https://github.com/xyming108)
+</div>
 
 ## 5. shortcodes使用方法
 
@@ -33,7 +36,7 @@
 `douban: {{< douban src="网址" >}}`
 
 ```
-# 文章内链
+# 文章内链卡片
 # 末尾要加 md，只能填写相对路径，如下
 {{< innerlink src="posts/tech/mysql_1.md" >}}
 ```
