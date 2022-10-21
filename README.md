@@ -20,7 +20,7 @@
 
 🎉🎉 787018782 🎉🎉
 
-<div align="center" style="zoom: 40%">
+<div align="center" style="width: 30%">
 
 [![](https://www.sulvblog.cn/links/hugo_group.png)](https://github.com/xyming108)
 </div>
