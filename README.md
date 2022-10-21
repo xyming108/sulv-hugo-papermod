@@ -20,7 +20,7 @@
 
 🎉🎉 787018782 🎉🎉
 
-<div align="center" style="width: 30%">
+<div align="center" style="width: 30%!important;">
 
 
 ![](https://www.sulvblog.cn/links/hugo_group.png)
