@@ -18,11 +18,6 @@ There are many personal information in the template that need to be configured b
 
 🎉🎉 787018782 🎉🎉
 
-<div align="center" style="width: 30%">
-
-[![](https://www.sulvblog.cn/links/hugo_group.png)](https://github.com/xyming108)
-</div>
-
 ## 5. How to use shortcodes
 
 `bilibili: {{< bilibili BV1Fh411e7ZH(填 bvid) >}}`

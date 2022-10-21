@@ -22,7 +22,8 @@
 
 <div align="center" style="width: 30%">
 
-[![](https://www.sulvblog.cn/links/hugo_group.png)](https://github.com/xyming108)
+
+![](https://www.sulvblog.cn/links/hugo_group.png)
 </div>
 
 ## 5. shortcodes使用方法
