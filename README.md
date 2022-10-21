@@ -20,14 +20,6 @@
 
 🎉🎉 787018782 🎉🎉
 
-<div align="center" style="width: 30%!important;">
-
-
-![](https://www.sulvblog.cn/links/hugo_group.png)
-</div>
-
-![sample code output (dark, segoeui font, freetype)](https://www.sulvblog.cn/links/hugo_group.png)
-
 ## 5. shortcodes使用方法
 
 `bilibili: {{< bilibili BV1Fh411e7ZH(填 bvid) >}}`
