@@ -20,7 +20,7 @@
 
 🎉🎉 787018782 🎉🎉
 
-<kbd>[![](https://github.com/xyming108/sulv-hugo-papermod/blob/main/static/img/hugo_group.png)](https://github.com/xyming108)</kbd>
+[![](https://github.com/xyming108/sulv-hugo-papermod/blob/main/static/img/hugo_group.png)](https://github.com/xyming108)
 
 ## 5. shortcodes使用方法
 
