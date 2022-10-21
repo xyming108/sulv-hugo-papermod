@@ -18,6 +18,8 @@ There are many personal information in the template that need to be configured b
 
 🎉🎉 787018782 🎉🎉
 
+<img src="https://github.com/xyming108/sulv-hugo-papermod/blob/main/static/img/Q.gif" />
+
 ## 5. How to use shortcodes
 
 `bilibili: {{< bilibili BV1Fh411e7ZH(填 bvid) >}}`
@@ -29,6 +31,13 @@ There are many personal information in the template that need to be configured b
 `douban: {{< douban src="网址" >}}`
 
 ```
+#Intra article link
+#To add md at the end, you can only fill in the relative path, as shown below
+{{< innerlink src="posts/tech/mysql_1.md" >}}
+```
+
+```
+# Jumpable Links
 # Links in SRC must not be added with https:// or http://, and you can choose not to add WWW; If desc is written, the value of desc will be displayed in the browser
 link: {{< link src="www.sulvblog.cn" desc="https://www.sulvblog.cn" >}}
 ```

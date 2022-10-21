@@ -16,6 +16,7 @@ googleAnalytics:  # 谷歌统计
 # Copyright: Sulv
 
 paginate: 15    # 首页每页显示的文章数
+summaryLength: 140 # 文章概览的自字数，默认70
 
 minify:
   disableXML: true

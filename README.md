@@ -20,6 +20,8 @@
 
 🎉🎉 787018782 🎉🎉
 
+<img src="https://github.com/xyming108/sulv-hugo-papermod/blob/main/static/img/Q.gif" />
+
 ## 5. shortcodes使用方法
 
 `bilibili: {{< bilibili BV1Fh411e7ZH(填 bvid) >}}`
@@ -31,6 +33,13 @@
 `douban: {{< douban src="网址" >}}`
 
 ```
+# 文章内链
+# 末尾要加 md，只能填写相对路径，如下
+{{< innerlink src="posts/tech/mysql_1.md" >}}
+```
+
+```
+# 可跳转的链接
 # src中的链接一定不要加https://或http://，可以选择不加www；若desc写了，则在浏览器会显示desc的值
 link: {{< link src="www.sulvblog.cn" desc="https://www.sulvblog.cn" >}}
 ```

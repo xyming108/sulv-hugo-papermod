@@ -1,0 +1,22 @@
+<div style="height: 200px;margin: 1em auto;position: relative;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 25%), 0 0 2px rgb(0 0 0 / 25%);
+        border-radius: 15px;padding: 23px;max-width: 780px;background: var(--entry);">
+    {{ $url := .Get "src" }}
+    {{ with .Site.GetPage $url }}
+    <div style="font-size: 22px; font-weight: 600">
+        <a target="_blank" href="{{ .Permalink }}" style="box-shadow: none">{{ .Title }}</a>
+    </div>
+    <span style="font-size: 14px; color: #999">
+        日期: {{ .Date.Format ( default "2006-01-02") }}
+        {{ if .Params.tags }}&nbsp;
+        标签:
+        {{ range .Params.tags }}
+            #{{ . }}&nbsp;
+        {{ end }}
+    </span>
+    <div style="font-size: 14px; line-height: 1.825;max-height: 75px; overflow: hidden;margin-top: 5px;">
+        {{ .Summary | plainify}} ......
+    </div>
+    {{ end }}
+    {{ end }}
+</div>
