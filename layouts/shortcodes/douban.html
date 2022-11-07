@@ -74,11 +74,23 @@
             }
 
             .post-preview--excerpt {
-                display: none;
+                /*display: none;*/
             }
 
             .post-preview--middle {
                 line-height: 19px;
+            }
+
+            .post-preview--meta {
+                width: 60%;
+                padding: 23px;
+                overflow: hidden;
+            }
+
+            .post-preview img {
+                margin: unset;
+                width: 40%;
+                border-radius: 0 15px 15px 0;
             }
         }
 
@@ -148,8 +160,7 @@
             margin-left: 10px;
         }
     </style>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('.douban_item').each(function () {
