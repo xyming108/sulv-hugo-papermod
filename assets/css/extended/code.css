@@ -51,3 +51,8 @@
 .dark .hljs {
     color: #c0c5ce !important;
 }*/
+
+::-webkit-scrollbar-corner {
+    background-color: var(--hljs-bg);
+    border-radius: 10px;
+}

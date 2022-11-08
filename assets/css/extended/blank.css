@@ -101,18 +101,17 @@ img:active {
     transform: scale(1.35, 1.35);
 }
 
-/*代码里的滚动*/
+/*页面滚动*/
+/*::-webkit-scrollbar-thumb {*/
+/*    border: 2px solid var(--theme);*/
+/*}*/
+
 @media screen and (min-width: 768px) {
     ::-webkit-scrollbar {
         width: 15px;
         height: 13px;
     }
 }
-
-/*页面滚动*/
-/*::-webkit-scrollbar-thumb {*/
-/*    border: 2px solid var(--theme);*/
-/*}*/
 
 
 /*页面顶部栏两边宽度*/
