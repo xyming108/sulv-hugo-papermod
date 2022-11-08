@@ -99,6 +99,7 @@ img:active {
     /*margin:50px;*/
     border-radius: 10px;
     transform: scale(1.35, 1.35);
+    opacity: 1;
 }
 
 /*页面滚动*/
