@@ -11,7 +11,17 @@
     {{- $bc_pg := $.Site.GetPage ($scratch.Get "path") -}}
 
     {{- if (and ($bc_pg) (gt (len . ) 0))}}
-    {{- print "&nbsp;»&nbsp;" | safeHTML -}}<a href="{{ $bc_pg.Permalink }}">{{ $bc_pg.Name }}</a>
+<!--    {{- print "&nbsp;»&nbsp;" | safeHTML -}}<a href="{{ $bc_pg.Permalink }}">{{ $bc_pg.Name }}</a>-->
+    {{- print "&nbsp;»&nbsp;" | safeHTML -}}
+        {{- if eq $bc_pg.Name "Tags" }}
+            <a href="{{ $bc_pg.Permalink }}">
+                {{ "🧩 标签" }}
+            </a>
+        {{ else }}
+            <a href="{{ $bc_pg.Permalink }}">
+                {{ $bc_pg.Name }}
+            </a>
+        {{- end }}
     {{- end }}
 
     {{- end -}}
