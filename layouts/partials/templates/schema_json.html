@@ -34,16 +34,16 @@
     {{- $bc_pg := site.GetPage ($scratch.Get "path") -}}
 
     {{- if (and ($bc_pg) (gt (len . ) 0))}}
-    {{- if (gt $index 1)}}, {{end }}
+//    {{- if (gt $index 1)}}, {{end }}
         {
           "@type": "ListItem",
           "position": {{ add 1 $index  }},
           "name": {{ $bc_pg.Name }},
           "item": {{ $bc_pg.Permalink | safeHTML }}
-        }
+        },
     {{- end }}
   {{- end }}
-  {{- if (ge (len $bc_list) 2) }}, {{end }}
+  {{- if (ge (len $bc_list) 2) }} {{end }}
     {
       "@type": "ListItem",
       "position": {{len $bc_list}},
