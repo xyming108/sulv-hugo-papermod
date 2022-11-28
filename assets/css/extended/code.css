@@ -56,3 +56,11 @@
     background-color: var(--hljs-bg);
     border-radius: 10px;
 }
+
+/*修复代码在ios展示大小不一的问题*/
+code {
+    text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
