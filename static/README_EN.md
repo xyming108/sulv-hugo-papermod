@@ -35,12 +35,6 @@ There are many personal information in the template that need to be configured b
 ```
 
 ```
-# Jumpable Links
-# Links in SRC must not be added with https:// or http://, and you can choose not to add WWW; If desc is written, the value of desc will be displayed in the browser
-link: {{< link src="www.sulvblog.cn" desc="https://www.sulvblog.cn" >}}
-```
-
-```
 gallery:
 
 {{< gallery >}}
