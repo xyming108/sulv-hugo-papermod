@@ -1,4 +1,12 @@
 {{- define "main" }}
+<style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+</style>
+
 <article class="post-single">
     <div id="single-content">
         <header class="post-header">
@@ -15,26 +23,52 @@
             {{- if not (.Param "hideMeta") }}
             <div class="post-meta">
                 {{- partial "post_meta.html" . -}}
-
-                <!--标签显示在头部-->
-                &nbsp;|&nbsp;标签: &nbsp;
-                {{- if .Params.tags }}
-                <ul class="post-tags-meta">
-                    {{- range $index, $value := ($.GetTerms "tags") }}
-                    {{- if eq $index 0}}
-                    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-                    {{- else }}
-                    <a href="{{ .Permalink }}">、{{ .LinkTitle }}</a>
-                    {{- end }}
-                    {{- end }}
-                </ul>
-                {{- end }}
-
-                <!--访问量：<span id="twikoo_visitors"></span>-->
-                <span id="busuanzi_container_page_pv">
-                &nbsp;| 访问: <span id="busuanzi_value_page_pv"></span>
-            </span>
-
+                <span style="opacity: 0.8;">
+                    <span id="post_meta_style_7">
+                        &nbsp;&nbsp;
+                        <span class="fa fa-eye" ></span>
+                        <span>
+                            <span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span></span>
+                            &nbsp;&nbsp;
+                        </span>
+                    </span>
+                    <span id="post_meta_style_8">
+                        <span class="fa fa-commenting-o"></span>
+                        <span>
+                            <script src="https://cdn.staticfile.org/twikoo/{{ .Site.Params.twikoo.version }}/twikoo.all.min.js"></script>
+                            <script>
+                                let url = document.documentURI
+                                {{ $baseURL := .Site.BaseURL }}
+                                let dnsUrl = {{ $baseURL }}
+                                let urlSplit = url.split(dnsUrl)
+                                let finalUrl = urlSplit[1]
+                                if (finalUrl[0] !== '/') {
+                                    finalUrl = '/'+finalUrl
+                                }
+                                twikoo.getCommentsCount({
+                                    envId: {{ .Site.Params.twikoo.id }}, // 环境 ID
+                                region: {{ .Site.Params.twikoo.region }}, // 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数
+                                urls: [ // 不包含协议、域名、参数的文章路径列表，必传参数
+                                    // '/2020/10/post-1.html', //填写示例
+                                    finalUrl,
+                                ],
+                                    includeReply: false // 评论数是否包括回复，默认：false
+                                }).then(function (res) {
+                                    let count = res[0].count
+                                    const obj = document.getElementById("comment_count");
+                                    obj.innerText = count
+                                    // 返回示例: [
+                                    //   { url: '/2020/10/post-1.html', count: 10 },
+                                    // ]
+                                }).catch(function (err) {
+                                    // 发生错误
+                                    console.error(err);
+                                });
+                            </script>
+                            <span id="comment_count"></span>
+                        </span>
+                    </span>
+                </span>
                 {{- partial "translation_list.html" . -}}
                 {{- partial "edit_post.html" . -}}
                 {{- partial "post_canonical.html" . -}}
@@ -45,10 +79,8 @@
         .Site.Params.cover.hidden }}
         {{- partial "cover1.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
         {{- if (.Param "ShowToc") }}
-        <!-- {{- partial "toc.html" . }} -->
-        {{- partial "toc_author.html" . }}
+        {{- partial "toc.html" . }}
         {{- end }}
-        <!-- {{- partial "toc_extend.html" . }} -->
 
         {{- if .Content }}
         <div class="post-content">

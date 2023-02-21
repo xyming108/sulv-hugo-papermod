@@ -1,16 +1,4 @@
-/*友链---------------------------------------------------------------*/
-
-/*.friend ::-webkit-scrollbar-thumb {
-    border: 2px solid var(--code-bg);
-}
-
-.friend {
-    width: 102%;
-    max-height: 35em;
-    display: block;
-    overflow-x: auto;
-}*/
-
+/*友链*/
 .friendurl {
     text-decoration: none !important;
     color: black;
@@ -45,11 +33,11 @@
 .frienddiv:hover {
     background: var(--theme);
 
-    -webkit-transform: scale(1.08);
-    -moz-transform: scale(1.08);
-    -ms-transform: scale(1.08);
-    -o-transform: scale(1.08);
-    transform: scale(1.08);
+    /*-webkit-transform: scale(1.08);*/
+    /*-moz-transform: scale(1.08);*/
+    /*-ms-transform: scale(1.08);*/
+    /*-o-transform: scale(1.08);*/
+    /*transform: scale(1.08);*/
 
     transition: box-shadow 1s ease, transform 1s ease;
 }
@@ -57,25 +45,25 @@
 .dark .frienddiv:hover {
     background: var(--code-bg);
 
-    -webkit-transform: scale(1.08);
-    -moz-transform: scale(1.08);
-    -ms-transform: scale(1.08);
-    -o-transform: scale(1.08);
-    transform: scale(1.08);
+    /*-webkit-transform: scale(1.08);*/
+    /*-moz-transform: scale(1.08);*/
+    /*-ms-transform: scale(1.08);*/
+    /*-o-transform: scale(1.08);*/
+    /*transform: scale(1.08);*/
 
     transition: box-shadow 1s ease, transform 1s ease;
 }
 
 .frienddiv:hover .frienddivleft img {
-    transition: 0.9s !important;
-    -webkit-transition: 0.9s !important;
-    -moz-transition: 0.9s !important;
-    -o-transition: 0.9s !important;
-    transform: rotate(360deg) !important;
-    -webkit-transform: rotate(360deg) !important;
-    -moz-transform: rotate(360deg) !important;
-    -o-transform: rotate(360deg) !important;
-    -ms-transform: rotate(360deg) !important;
+    /*transition: 0.9s !important;*/
+    /*-webkit-transition: 0.9s !important;*/
+    /*-moz-transition: 0.9s !important;*/
+    /*-o-transition: 0.9s !important;*/
+    /*transform: rotate(360deg) !important;*/
+    /*-webkit-transform: rotate(360deg) !important;*/
+    /*-moz-transform: rotate(360deg) !important;*/
+    /*-o-transform: rotate(360deg) !important;*/
+    /*-ms-transform: rotate(360deg) !important;*/
 }
 
 .frienddivleft {

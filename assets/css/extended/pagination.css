@@ -85,22 +85,22 @@ a.pagePrev {
 }
 
 a.pagePrev:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pagePrev:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
@@ -136,22 +136,22 @@ a.pageNext {
 }
 
 a.pageNext:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pageNext:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
@@ -180,22 +180,22 @@ a.pageFirst {
 }
 
 a.pageFirst:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pageFirst:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
@@ -224,22 +224,22 @@ a.pageLast {
 }
 
 a.pageLast:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark a.pageLast:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
@@ -265,22 +265,22 @@ a.pageLast:hover {
 }
 
 .pagination .prev:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .pagination .prev:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
@@ -306,22 +306,22 @@ a.pageLast:hover {
 }
 
 .pagination .next:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .pagination .next:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);

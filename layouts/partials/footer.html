@@ -1,13 +1,4 @@
-{{ if (.Params.mermaid) }}
-<!-- MermaidJS support -->
-<script async src="https://unpkg.com/mermaid@8.8.1/dist/mermaid.min.js"></script>
-{{ end }}
-
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
 {{- if not (.Param "hideFooter") }}
-
-
 <footer class="footer">
     {{- if .Site.Copyright }}
     <span>{{ .Site.Copyright | markdownify }}</span>
@@ -19,9 +10,7 @@
         <a href="{{ "" | absLangURL }}" style="color:#939393;">{{ .Site.Title }}</a>
         All Rights Reserved
     </span>
-
     <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;">{{ .Site.Params.FilingNo }}</a>&nbsp;
-
     <span>
         <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=null"
            style="display:inline-block;text-decoration:none;height:20px;color:#939393;">
@@ -29,15 +18,11 @@
             {{ .Site.Params.PublicNetworkSecurity }}
         </a>
     </span>
-
     <span id="busuanzi_container">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        总访客数: <!--<i class="fa fa-user"></i>--><span id="busuanzi_value_site_uv"></span>
-        总访问量: <!--<i class="fa fa-eye"></i>--><span id="busuanzi_value_site_pv"></span>
+        <span class="fa fa-user"></span> <span id="busuanzi_value_site_uv"></span>
+        <span class="fa fa-eye"></span> <span id="busuanzi_value_site_pv"></span>
     </span>
-
     {{- end }}
-
 </footer>
 {{- end }}
 
@@ -58,7 +43,6 @@
         const scrollHeight = document.documentElement.scrollHeight;
         const clientHeight = document.documentElement.clientHeight;
         const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-        // readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0) + '%';
         readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
     })
 </script>
@@ -92,14 +76,13 @@
             }
         });
     });
-
 </script>
 
 {{- if (not .Site.Params.disableScrollToTop) }}
 <script>
     let mybutton = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
             mybutton.style.visibility = "visible";
             mybutton.style.opacity = "1";
         } else {
@@ -113,6 +96,10 @@
 {{- if (not .Site.Params.disableThemeToggle) }}
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
+        (function() {
+            document.cookie = "change-themes" + "="+ escape ("false");
+        })()
+
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
@@ -120,8 +107,7 @@
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
         }
-    })
-
+    });
 </script>
 {{- end }}
 
@@ -133,21 +119,11 @@
                 e.preventDefault();
                 let htmlData = window.getSelection().toString() +
                     '\r\n\n————————————————\r\n' +
-                    '版权声明：本文为「' + {
-                { .
-                    Site.Title
-                }
-            }
-                +'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                    '版权声明：本文为「'+{{ .Site.Title }}+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
                 '\r\n原文链接：' + location.href;
                 let textData = window.getSelection().toString() +
                     '\r\n\n————————————————\r\n' +
-                    '版权声明：本文为「' + {
-                { .
-                    Site.Title
-                }
-            }
-                +'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                    '版权声明：本文为「'+{{ .Site.Title }}+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
                 '\r\n原文链接：' + location.href;
                 clipboardData.setData('text/html', htmlData);
                 clipboardData.setData('text/plain', textData);
@@ -160,7 +136,6 @@
 <script>
     document.querySelectorAll('pre > code').forEach((codeblock) => {
         const container = codeblock.parentNode.parentNode;
-
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
         copybutton.innerText = '{{- i18n "code_copy" | default "copy" }}';
@@ -176,8 +151,7 @@
             if ('clipboard' in navigator) {
                 let text = codeblock.textContent +
                     '\r\n————————————————\r\n' +
-                    '版权声明：本文为「' + {{ .Site.Title }}
-                +'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                    '版权声明：本文为「'+{{ .Site.Title }}+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
                 '\r\n原文链接：' + location.href;
                 navigator.clipboard.writeText(text);
                 copyingDone();
@@ -192,34 +166,53 @@
             try {
                 document.execCommand('copy');
                 copyingDone();
-            } catch (e) {
-            }
-            ;
+            } catch (e) {}
             selection.removeRange(range);
         });
 
+        let language = codeblock.className.replaceAll("language-", "")
+        let macTool = document.createElement("div")
+        let macTool1 = document.createElement("div")
+        let macTool2 = document.createElement("div")
+        let macTool3 = document.createElement("div")
+        let languageType = document.createElement("div")
+        languageType.innerText = language
+        macTool.setAttribute('class', 'mac-tool')
+        macTool1.setAttribute('class', 'mac bb1')
+        macTool2.setAttribute('class', 'mac bb2')
+        macTool3.setAttribute('class', 'mac bb3')
+        languageType.setAttribute('class', 'language-type')
+        macTool.appendChild(macTool1)
+        macTool.appendChild(macTool2)
+        macTool.appendChild(macTool3)
+        macTool.appendChild(languageType)
+
         if (container.classList.contains("highlight")) {
             container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild === container) {
+            container.appendChild(macTool)
+        } else if (container.parentNode.firstChild == container) {
             // td containing LineNos
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName === "TABLE") {
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
             // table containing LineNos and code
             codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+            container.appendChild(macTool)
         } else {
             // code blocks not having highlight as parent class
             codeblock.parentNode.appendChild(copybutton);
+            container.appendChild(macTool)
         }
     });
 </script>
 {{- end }}
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script>
     $("code[class^=language] ").on("mouseover", function () {
         if (this.clientWidth < this.scrollWidth) {
             $(this).css("width", "135%")
+            $(this).css("border-top-right-radius", "var(--radius)")
         }
     }).on("mouseout", function () {
         $(this).css("width", "100%")
+        $(this).css("border-top-right-radius", "unset")
     })
 </script>

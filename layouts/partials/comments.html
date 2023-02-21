@@ -3,37 +3,36 @@
 {{- /* Comments area end */ -}}
  -->
 
+<style>
+    .comments_details summary::marker {
+        font-size: 20px;
+        content: '👉展开评论';
+        color: var(--content);
+    }
+    .comments_details[open] summary::marker{
+        font-size: 20px;
+        content: '👇关闭评论';
+        color: var(--content);
+    }
+</style>
 
 <!-- Twikoo -->
 <div>
-    <div class="pagination__title">
-        <span class="pagination__title-h" style="font-size: 20px;">💬评论</span>
-        <hr />
-    </div>
-
-    <div id="tcomment"></div>
-
+    <details class="comments_details">
+        <summary style="cursor: pointer; margin: 50px 0 20px 0;width: 130px;">
+            <span style="font-size: 20px;color: var(--content);">...</span>
+        </summary>
+        <div id="tcomment"></div>
+    </details>
     <script src="https://cdn.staticfile.org/twikoo/{{ .Site.Params.twikoo.version }}/twikoo.all.min.js">
     </script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js"></script> -->
-
-    <!-- <script>window.TWIKOO_MAGIC_PATH="共用评论区的名称"</script> -->
-
     <script>
         twikoo.init({
-            envId: {{ .Site.Params.twikoo.id }}, //填自己的
-            el: "#tcomment",
+            envId: {{ .Site.Params.twikoo.id }},
+        el: "#tcomment",
             lang: 'zh-CN',
             region: {{ .Site.Params.twikoo.region }},
-            path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
-            // onCommentLoaded: function () {
-            //     $(".tk-content img:not(.tk-avatar-img)").each(function () {
-            //         var _b = $("<a></a>").attr("href", this.src);
-            //         $(this).wrap(_b);
-            //     })
-            //     $(".tk-content a[rel!=link]:has(img)").slimbox();
-            // }
-        });
+        path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
+        })
     </script>
-
 </div>

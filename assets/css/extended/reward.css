@@ -50,11 +50,11 @@
     /*border-color: #999;*/
     outline-style: none;
 
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+    /*-webkit-transform: scale(1.1);*/
+    /*-moz-transform: scale(1.1);*/
+    /*-ms-transform: scale(1.1);*/
+    /*-o-transform: scale(1.1);*/
+    /*transform: scale(1.1);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
@@ -65,11 +65,11 @@
     /*border-color: rgb(218 218 219);*/
     outline-style: none;
 
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+    /*-webkit-transform: scale(1.1);*/
+    /*-moz-transform: scale(1.1);*/
+    /*-ms-transform: scale(1.1);*/
+    /*-o-transform: scale(1.1);*/
+    /*transform: scale(1.1);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
 }

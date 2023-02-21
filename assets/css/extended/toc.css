@@ -1,30 +1,13 @@
-/*最原始目录*/
-.toc {
-    /*width: fit-content;
-    position: fixed;
-    z-index: 1;*/
-    /*margin-left: 800px;
-    word-wrap: break-word;*/
-}
-
-/*.toc li {
-    list-style: none;
-}
-
-.toc ul {
-    list-style: none;
-}
-*/
-
-
-/*官方写的目录扩展----------------------------------------------------------------*/
-
 .toc {
     margin: 0 2px 40px 2px;
     border: 1.2px solid var(--border);
     background: var(--entry);
     border-radius: var(--radius);
     padding: 0.4em;
+}
+
+.toc-container {
+    margin: 10px 0 0 0;
 }
 
 .toc-container.wide {
@@ -49,13 +32,16 @@
 }
 
 .toc details summary {
-    cursor: zoom-in;
     margin-inline-start: 20px;
     padding: 12px 0;
+    width: 110px;
+    cursor: pointer;
 }
 
 .toc details[open] summary {
     font-weight: 500;
+    width: 110px;
+    cursor: pointer;
 }
 
 .toc-container.wide .toc .inner {
@@ -68,9 +54,12 @@
     border-bottom: 1px solid transparent;
     padding-bottom: 0.1rem;
     border-bottom-color: var(--secondary);
+    font-weight: 600;
+}
 
-    /*会影响到其他地方*/
-    /*background: var(--tertiary);*/
+.dark .active {
+    color: var(--content);
+    font-weight: 600;
 }
 
 .toc ul {
@@ -79,7 +68,7 @@
 
 .toc .inner {
     margin: 0 0 0 20px;
-    padding: 0px 15px 15px 20px;
+    padding: 0 15px 15px 20px;
     font-size: 16px;
 
     max-height: 83vh;
@@ -100,70 +89,15 @@
 .toc li {
     list-style: none;
     font-size: 0.90rem;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
+    padding: 5px 0 0 0;
 }
 
 .toc li a:hover {
     font-weight: 600;
-    /*font-size: 110%;*/
-    /*color: var(--secondary);*/
 }
 
-
-/*自己写的目录扩展-------------------------------------------------*/
-
-.toc_extend {
-    /*border: 1px solid var(--border);*/
-    /*background: var(--code-bg);*/
-    border-radius: var(--radius);
-    padding: 0.4em;
-    position: fixed;
-    z-index: 1;
-    margin: 0 2px 40px 730px;
-    font-size: 0.80rem;
-    top: 110px;
-}
-
-.dark .toc_extend {
-    /*background: var(--entry);*/
-}
-
-.toc_extend details summary {
-    cursor: zoom-in;
-    margin-inline-start: 20px;
-}
-
-.toc_extend details[open] summary {
-    cursor: zoom-out;
-}
-
-.toc_extend .details_extend {
-    display: inline;
-    font-weight: 500;
-}
-
-.toc_extend .inner_extend {
-    margin: 0 20px;
-    padding: 10px 20px;
-}
-
-.toc_extend li ul {
-    margin-inline-start: var(--gap);
-}
-
-.toc_extend summary:focus {
-    outline: 0;
-}
-
-.toc_extend li {
-    list-style: none;
-    padding-bottom: 5px;
-}
-
-.toc_extend li a:hover {
-    color: var(--secondary);
-}
-
-.toc_extend ul {
-    list-style: none;
+.dark .toc li a:hover {
+    font-weight: 600;
+    color: var(--content);
 }

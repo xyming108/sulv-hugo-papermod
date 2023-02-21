@@ -19,6 +19,20 @@
 {{- else }}
 {{- /* theme is auto */}}
 <script>
+    (function () {
+        let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
+        if(arr = document.cookie.match(reg)) {
+        } else {
+            if (new Date().getHours() >= 19 || new Date().getHours() < 6) {
+                document.body.classList.add('dark');
+                localStorage.setItem("pref-theme", 'dark');
+            } else {
+                document.body.classList.remove('dark');
+                localStorage.setItem("pref-theme", 'light');
+            }
+        }
+    })()
+
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
     } else if (localStorage.getItem("pref-theme") === "light") {
@@ -26,7 +40,6 @@
     } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
-
 </script>
 {{- end }}
 {{- /* theme-toggle is disabled and theme is auto */}}
@@ -38,11 +51,6 @@
 
 </script>
 {{- end }}
-
-{{ if (.Params.mermaid) }}
-<!-- MermaidJS support -->
-<script async src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-{{ end }}
 
 <header class="header">
     <nav class="nav">

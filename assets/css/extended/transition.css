@@ -8,11 +8,11 @@
 }
 
 .profile .profile_inner h1:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+    /*-webkit-transform: scale(1.1);*/
+    /*-moz-transform: scale(1.1);*/
+    /*-ms-transform: scale(1.1);*/
+    /*-o-transform: scale(1.1);*/
+    /*transform: scale(1.1);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
@@ -27,11 +27,11 @@
 }
 
 #theme-toggle svg:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);*/
+    /*-moz-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*-o-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
@@ -50,11 +50,11 @@ button#theme-toggle {
 }
 
 .logo a:hover {
-    -webkit-transform: scale(1.06);
-    -moz-transform: scale(1.06);
-    -ms-transform: scale(1.06);
-    -o-transform: scale(1.06);
-    transform: scale(1.06);
+    /*-webkit-transform: scale(1.06);*/
+    /*-moz-transform: scale(1.06);*/
+    /*-ms-transform: scale(1.06);*/
+    /*-o-transform: scale(1.06);*/
+    /*transform: scale(1.06);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
@@ -89,25 +89,25 @@ button#theme-toggle {
 .top-link:hover {
     color: rgb(108, 108, 108);
 
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+    /*-webkit-transform: scale(1.1);*/
+    /*-moz-transform: scale(1.1);*/
+    /*-ms-transform: scale(1.1);*/
+    /*-o-transform: scale(1.1);*/
+    /*transform: scale(1.1);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .top-link:hover {
-    color: rgba(180,181,182,.8);
+    color: rgba(180, 181, 182, .8);
 
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+    /*-webkit-transform: scale(1.1);*/
+    /*-moz-transform: scale(1.1);*/
+    /*-ms-transform: scale(1.1);*/
+    /*-o-transform: scale(1.1);*/
 
-    transform: scale(1.1);
+    /*transform: scale(1.1);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
@@ -134,11 +134,11 @@ button#theme-toggle {
 }
 
 .archive-entry:hover {
-    -webkit-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    transform: scale(1.02);
+    /*-webkit-transform: scale(1.02);*/
+    /*-moz-transform: scale(1.02);*/
+    /*-ms-transform: scale(1.02);*/
+    /*-o-transform: scale(1.02);*/
+    /*transform: scale(1.02);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
@@ -163,22 +163,22 @@ button#theme-toggle {
 }
 
 .post-entry:hover {
-    -webkit-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    transform: scale(1.02);
+    /*-webkit-transform: scale(1.02);*/
+    /*-moz-transform: scale(1.02);*/
+    /*-ms-transform: scale(1.02);*/
+    /*-o-transform: scale(1.02);*/
+    /*transform: scale(1.02);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
 }
 
 .dark .post-entry:hover {
-    -webkit-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    transform: scale(1.02);
+    /*-webkit-transform: scale(1.02);*/
+    /*-moz-transform: scale(1.02);*/
+    /*-ms-transform: scale(1.02);*/
+    /*-o-transform: scale(1.02);*/
+    /*transform: scale(1.02);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
@@ -208,12 +208,12 @@ button#theme-toggle {
 }
 
 .button:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+    /*-webkit-transform: scale(1.1);*/
+    /*-moz-transform: scale(1.1);*/
+    /*-ms-transform: scale(1.1);*/
+    /*-o-transform: scale(1.1);*/
 
-    transform: scale(1.1);
+    /*transform: scale(1.1);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);
@@ -225,12 +225,12 @@ button#theme-toggle {
 }
 
 .dark .button:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+    /*-webkit-transform: scale(1.1);*/
+    /*-moz-transform: scale(1.1);*/
+    /*-ms-transform: scale(1.1);*/
+    /*-o-transform: scale(1.1);*/
 
-    transform: scale(1.1);
+    /*transform: scale(1.1);*/
 
     transition: box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0px 4px 8px rgb(5 10 15 / 5%), 0px 7px 13px -3px rgb(5 10 15 / 30%);

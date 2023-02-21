@@ -1,29 +1,69 @@
-{{- $scratch := newScratch }}
-{{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (printf "创建:&nbsp;<span title='%s'>%s</span>" (.Date) (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
-{{- end }}
+<style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
 
-{{- if (.Param "ShowLastMod") -}}
-{{- $scratch.Add "meta" (slice (printf "更新:&nbsp;%s" (.Lastmod.Format (.Site.Params.dateFormat | default "2006-01-02")))) }}
-{{- end }}
+    .parent-post-meta {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.8;
+    }
+</style>
 
-{{- if (.Param "ShowWordCounts") -}}
-{{- $scratch.Add "meta" (slice (default (printf "字数:&nbsp;%d字" .WordCount))) }}
-{{- end }}
-
-{{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (default (printf "时长:&nbsp;%d分钟" .ReadingTime))) }}
-{{- end }}
-
-{{- with (partial "author.html" .) }}
-{{- $scratch.Add "meta" (slice .) }}
-{{- end }}
-
-{{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;|&nbsp;" -}}
-{{- end }}
-
-<!--
-{{- if (.Param "VisitCount") -}}
-{{- $scratch.Add "meta" (slice (printf "访问:&nbsp;<span id='%s'></span>" ("twikoo_visitors") )) }}
-{{- end }}-->
+<span class="parent-post-meta">
+    <span id="post_meta_style_1">
+        <span class="fa fa-calendar-check-o"></span>
+        <span>
+            {{- (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat)) }}
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <!--    <span id="post_meta_style_2">-->
+    <!--        <span class="fa fa-calendar-plus-o"></span>-->
+    <!--        <span>-->
+    <!--            &nbsp;更新&nbsp;{{- (.Lastmod.Format (.Site.Params.dateFormat | default "2006-01-02")) }}-->
+    <!--            &nbsp;|&nbsp;-->
+    <!--        </span>-->
+    <!--    </span>-->
+    <span id="post_meta_style_3">
+        <span class="fa fa-file-word-o"></span>
+        <span>
+            {{- .WordCount }}字
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_4">
+        <span class="fa fa-clock-o"></span>
+        <span>
+            {{- .ReadingTime }}分钟
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_5">
+        <span class="fa fa-user-o"></span>
+        <span>
+            {{- with (partial "author.html" .) }}
+            {{- . }}
+            {{- end }}
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_6">
+        <span class="fa fa-tags" style="opacity: 0.8"></span>
+        <span>
+            {{- if .Params.tags }}
+            <span class="post-tags-meta">
+                {{- range $index, $value := ($.GetTerms "tags") }}
+                {{- if eq $index 0}}
+                <a href="{{ .Permalink }}" style="color: var(--secondary)!important;">{{ .LinkTitle }}</a>
+                {{- else }}
+                &nbsp;<a href="{{ .Permalink }}" style="color: var(--secondary)!important;">{{ .LinkTitle }}</a>
+                {{- end }}
+                {{- end }}
+            </span>
+            {{- end }}
+        </span>
+    </span>
+</span>
