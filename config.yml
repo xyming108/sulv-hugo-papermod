@@ -1,4 +1,4 @@
-baseURL: https://www.sulvblog.cn # 绑定的域名
+baseURL: https://xyming108.github.io/ # 绑定的域名
 languageCode: zh-cn # en-us
 title: Sulv's Blog
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
