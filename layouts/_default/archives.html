@@ -5,7 +5,25 @@
 
 <header class="page-header">
   <h1>
-    {{ .Title }} <sup class="archive-count-title" style="font-size: 20px; color: var(--secondary);">&nbsp;&nbsp;{{ $postCount }} </sup>
+    {{ .Title }}<sup class="archive-count-title" style="font-size: 20px; color: var(--secondary);">&nbsp;&nbsp;{{
+    $postCount }} </sup>
+    {{- if (.Param "ShowRssButtonInSectionTermList") }}
+    {{- $rss := (.OutputFormats.Get "rss") }}
+    {{- if (eq .Kind `page`) }}
+    {{- $rss = (.Parent.OutputFormats.Get "rss") }}
+    {{- end }}
+    {{- with $rss }}
+    <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9"/>
+        <path d="M4 4a16 16 0 0 1 16 16"/>
+        <circle cx="5" cy="19" r="1"/>
+      </svg>
+    </a>
+    {{- end }}
+    {{- end }}
   </h1>
   {{- if .Description }}
   <div class="post-description">
@@ -16,7 +34,7 @@
 
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 
-{{- if .Site.Params.ShowAllPagesInArchive }}
+{{- if site.Params.ShowAllPagesInArchive }}
 {{- $pages = site.RegularPages }}
 {{- end }}
 
@@ -24,50 +42,11 @@
 {{- if ne .Key "0001" }}
 <div class="archive-year">
   <h2 class="archive-year-header">
-    {{- replace .Key "0001" "" }} 年<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
+    {{- replace .Key "0001" "" }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
   </h2>
   {{- range .Pages.GroupByDate "January" }}
   <div class="archive-month">
-    <h3 class="archive-month-header">
-      {{- if eq .Key "December" }}
-      {{ "12月" }}
-      {{- end }}
-      {{- if eq .Key "November" }}
-      {{ "11月" }}
-      {{- end }}
-      {{- if eq .Key "October" }}
-      {{ "10月" }}
-      {{- end }}
-      {{- if eq .Key "September" }}
-      {{ "9月" }}
-      {{- end }}
-      {{- if eq .Key "August" }}
-      {{ "8月" }}
-      {{- end }}
-      {{- if eq .Key "July" }}
-      {{ "7月" }}
-      {{- end }}
-      {{- if eq .Key "June" }}
-      {{ "6月" }}
-      {{- end }}
-      {{- if eq .Key "May" }}
-      {{ "5月" }}
-      {{- end }}
-      {{- if eq .Key "April" }}
-      {{ "4月" }}
-      {{- end }}
-      {{- if eq .Key "March" }}
-      {{ "3月" }}
-      {{- end }}
-      {{- if eq .Key "February" }}
-      {{ "2月" }}
-      {{- end }}
-      {{- if eq .Key "January" }}
-      {{ "1月" }}
-      {{- end }}
-      <sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}
-      </sup>
-    </h3>
+    <h3 class="archive-month-header">{{- .Key }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup></h3>
     <div class="archive-posts">
       {{- range .Pages }}
       {{- if eq .Kind "page" }}
