@@ -205,6 +205,7 @@
 </script>
 {{- end }}
 
+{{- if .Site.Params.extendCodeBackground }}
 <script>
     $("code[class^=language] ").on("mouseover", function () {
         if (this.clientWidth < this.scrollWidth) {
@@ -216,3 +217,4 @@
         $(this).css("border-top-right-radius", "unset")
     })
 </script>
+{{- end }}

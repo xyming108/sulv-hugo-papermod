@@ -113,6 +113,8 @@ params:
   ShowToc: true # 显示目录
   TocOpen: true # 自动展开目录
 
+  extendCodeBackground: false # 代码块是否自动横向展开
+
   comments: true
   socialIcons:
     - name: github
