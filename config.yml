@@ -151,6 +151,7 @@ params:
     favicon32x32: "img/Q.gif"
     apple_touch_icon: "img/Q.gif"
     safari_pinned_tab: "img/Q.gif"
+    disableFingerprinting: true # 禁用指纹
 
   cover:
     hidden: false # hide everywhere but not in structured data
