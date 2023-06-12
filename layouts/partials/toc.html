@@ -111,21 +111,23 @@
 
     window.addEventListener('scroll', () => {
         // Check if there is an object in the top half of the screen or keep the last item active
-        activeElement = Array.from(elements).find((element) => {
-            if ((getOffsetTop(element) - window.pageYOffset) > 0 &&
-                (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
-                return element;
-            }
-        }) || activeElement
+        if (elements) {
+            activeElement = Array.from(elements).find((element) => {
+                if ((getOffsetTop(element) - window.pageYOffset) > 0 &&
+                    (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                    return element;
+                }
+            }) || activeElement
 
-        elements.forEach(element => {
-            const id = encodeURI(element.getAttribute('id')).toLowerCase();
-            if (element === activeElement){
-                document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
-            } else {
-                document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
-            }
-        })
+            elements.forEach(element => {
+                const id = encodeURI(element.getAttribute('id')).toLowerCase();
+                if (element === activeElement){
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+                } else {
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+                }
+            })
+        }
     }, false);
 
     const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
