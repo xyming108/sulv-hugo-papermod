@@ -31,26 +31,27 @@ defaultContentLanguageInSubdir: true
 
 languages:
   en:
-    languageName: "English"
-    weight: 1
-    profileMode:
-      enabled: true
-      title: (〃'▽'〃)
-      subtitle:
-      # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
-      imageUrl: "img/Q.gif"
-      imageTitle:
-      imageWidth: 150
-      imageHeight: 150
-      buttons:
-        - name: 🧱 建站
-          url: posts/blog
-        - name: 👨🏻‍💻 技术
-          url: posts/tech
-        - name: 📕 阅读
-          url: posts/read
-        - name: 🏖 生活
-          url: posts/life
+    params:
+      languageName: "English"
+      weight: 1
+      profileMode:
+        enabled: true
+        title: (〃'▽'〃)
+        subtitle:
+        # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
+        imageUrl: "img/Q.gif"
+        imageTitle:
+        imageWidth: 150
+        imageHeight: 150
+        buttons:
+          - name: 🧱 建站
+            url: posts/blog
+          - name: 👨🏻‍💻 技术
+            url: posts/tech
+          - name: 📕 阅读
+            url: posts/read
+          - name: 🏖 生活
+            url: posts/life
     menu:
       main:
         - identifier: search
