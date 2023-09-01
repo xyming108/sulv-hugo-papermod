@@ -1,5 +1,5 @@
 baseURL: https://xyming108.github.io/ # 绑定的域名
-languageCode: zh-cn # en-us
+languageCode: zh # en-us
 title: Sulv's Blog
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
 
@@ -26,62 +26,39 @@ permalinks: # 访问博客时网址的显示形式
   post: "/:title/"
   # post: "/:year/:month/:day/:title/"
 
-defaultContentLanguage: en # 最顶部首先展示的语言页面
-defaultContentLanguageInSubdir: true
+defaultContentLanguage: zh # 最顶部首先展示的语言页面
+defaultContentLanguageInSubdir: false
 
-languages:
-  en:
-    params:
-      languageName: "English"
+menu:
+  main:
+    - identifier: search
+      name: 🔍 搜索
+      url: search
       weight: 1
-      profileMode:
-        enabled: true
-        title: (〃'▽'〃)
-        subtitle:
-        # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
-        imageUrl: "img/Q.gif"
-        imageTitle:
-        imageWidth: 150
-        imageHeight: 150
-        buttons:
-          - name: 🧱 建站
-            url: posts/blog
-          - name: 👨🏻‍💻 技术
-            url: posts/tech
-          - name: 📕 阅读
-            url: posts/read
-          - name: 🏖 生活
-            url: posts/life
-    menu:
-      main:
-        - identifier: search
-          name: 🔍 搜索
-          url: search
-          weight: 1
-        - identifier: home
-          name: 🏠 主页
-          url: /
-          weight: 2
-        - identifier: posts
-          name: 📚 文章
-          url: posts
-          weight: 3
-        - identifier: tags
-          name: 🧩 标签
-          url: tags
-          weight: 15
-        - identifier: archives
-          name: ⏱️ 时间轴
-          url: archives/
-          weight: 20
-        - identifier: about
-          name: 🙋🏻‍♂️ 关于
-          url: about
-          weight: 50
-        - identifier: links
-          name: 🤝 友链
-          url: links
-          weight: 60
+    - identifier: home
+      name: 🏠 主页
+      url: /
+      weight: 2
+    - identifier: posts
+      name: 📚 文章
+      url: posts
+      weight: 3
+    - identifier: tags
+      name: 🧩 标签
+      url: tags
+      weight: 15
+    - identifier: archives
+      name: ⏱️ 时间轴
+      url: archives/
+      weight: 20
+    - identifier: about
+      name: 🙋🏻‍♂️ 关于
+      url: about
+      weight: 50
+    - identifier: links
+      name: 🤝 友链
+      url: links
+      weight: 60
 
 outputs:
   home:
@@ -117,6 +94,26 @@ params:
   extendCodeBackground: false # 代码块是否自动横向展开
 
   comments: true
+
+  profileMode:
+    enabled: true
+    title: (〃'▽'〃)
+    subtitle:
+    # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
+    imageUrl: "img/Q.gif"
+    imageTitle:
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+      - name: 🧱 建站
+        url: posts/blog
+      - name: 👨🏻‍💻 技术
+        url: posts/tech
+      - name: 📕 阅读
+        url: posts/read
+      - name: 🏖 生活
+        url: posts/life
+
   socialIcons:
     - name: github
       url: "https://github.com/xyming108"
