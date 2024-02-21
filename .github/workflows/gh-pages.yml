@@ -24,9 +24,15 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/master'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      - name: Deploy Hexo Public To Pages
+        run: |
+          cd ./public
+          git config --global init.defaultBranch main
+          git config --global http.postBuffer 524288000
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git init
+          git add -A
+          git branch -m main
+          git commit -m "${{ github.event.head_commit.message }} $(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By GitHub Actions"
+          git push --force --quiet "https://xinkeji:${{ secrets.GH_TOKEN }}@github.com/xinkeji/hugo-blog.git" main:main
