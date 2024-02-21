@@ -55,9 +55,9 @@ menu:
       name: ⏱️ 时间轴
       url: archives/
       weight: 20
-    - identifier: about
-      name: 🙋🏻‍♂️ 关于
-      url: about
+    # - identifier: about
+    #   name: 🙋🏻‍♂️ 关于
+    #   url: about
       weight: 50
     - identifier: links
       name: 🤝 友链
