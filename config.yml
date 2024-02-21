@@ -1,6 +1,6 @@
-baseURL: https://xyming108.github.io/ # 绑定的域名
+baseURL: https://g0f.cn # 绑定的域名
 languageCode: zh # en-us
-title: Sulv's Blog
+title: 果粉圈
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
 
 enableInlineShortcodes: true
@@ -43,6 +43,10 @@ menu:
       name: 📚 文章
       url: posts
       weight: 3
+    - identifier: talk
+      name: 💬 说说
+      url: links
+      weight: 60
     - identifier: tags
       name: 🧩 标签
       url: tags
