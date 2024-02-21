@@ -1,0 +1,48 @@
+name: 更新博客内容
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # 每天的8点0分触发
+  workflow_dispatch:  
+
+jobs:
+  update-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+
+      - name: 设置 Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
+          architecture: 'x64'
+
+      - name: 缓存 Python 依赖
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: 安装依赖
+        run: |
+          pip install -r requirements.txt
+
+      - name: 爬取
+        run: |
+          python main.py ${{ secrets.CORS_API }} ${{ secrets.RSSHUB_API }}
+
+      - name: 设置 Git 配置
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: 提交新的博客文章
+        run: |
+          git add content/blog/*
+          git commit -m "Add new posts via GitHub Actions" || echo "No new posts to commit."
+          git push origin main
+
+      
