@@ -14,7 +14,7 @@ showbreadcrumbs: false
 
 <div class="friend">
 
-{{< friend name="Sulv's Blog" url="https://www.sulvblog.cn" logo="https://www.sulvblog.cn/img/Q.gif" word="一个记录技术、阅读、生活的博客" >}}
+{{< friend name="果粉圈" url="https://www.g0f.cn/" logo="https://www.g0f.cn//img/Q.gif" word="一个记录技术、阅读、生活的博客" >}}
 
 
 </div>
