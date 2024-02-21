@@ -46,7 +46,7 @@ menu:
     - identifier: talk
       name: 💬 说说
       url: links
-      weight: 60
+      weight: 4
     - identifier: tags
       name: 🧩 标签
       url: tags
@@ -74,7 +74,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: ""
-  author: Sulv
+  author: 果粉圈
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto  # defaultTheme: light or  dark
