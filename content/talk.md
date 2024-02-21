@@ -18,8 +18,8 @@ showbreadcrumbs: false
 <div id="artitalk_main"></div>
 <script>
 new Artitalk({
-    appId: '0izrIjIY9gxyGJCRLTImKERs-MdYXbMMI', // Your LeanCloud appId
-    appKey: 'vcOI14m6RBqk3isnWsgJNQ6H', // Your LeanCloud appKey
+    appId: 'aLVyDmqqIrWux6KB44zM3Nlx-MdYXbMMI', // Your LeanCloud appId
+    appKey: 'O45ZhnwkS4R3T2KaMW1YX7y6' // Your LeanCloud appKey
     serverURL: 'https://artitalk.lvbibir.cn'
 })
 </script>
