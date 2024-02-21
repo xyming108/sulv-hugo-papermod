@@ -139,7 +139,7 @@ params:
       url: "index.xml"
 
   label: # 左上角图标
-    text: "Sulv's Blog"
+    text: "果粉圈"
     icon: "img/Q.gif"
     iconHeight: 35
 
