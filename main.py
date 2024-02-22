@@ -231,7 +231,7 @@ def get_post(res,item):
     elif img:
       img = img.replace('http://',CORS_API+'/?url=http://')
     if not img:
-      img = https://www.g0f.cn/img/banner.jpg
+      img = "https://www.g0f.cn/img/banner.jpg"
 
     
     md_content = md_temple
