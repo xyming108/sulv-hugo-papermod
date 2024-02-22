@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=http://lopespm.github.io&url=http://lopespm.github.io/files/project_planning_framework/compliance.png
-    alt: "'Project Planning Framework'"
+    alt: "Project Planning Framework"
     relative: false
 ---
 

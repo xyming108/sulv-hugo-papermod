@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://brett.trpstra.net&url=https://cdn3.brettterpstra.com/uploads/2023/09/apptamer2023-winners-rb.jpg
-    alt: "'The App Tamer giveaway winners!'"
+    alt: "The App Tamer giveaway winners!"
     relative: false
 ---
 

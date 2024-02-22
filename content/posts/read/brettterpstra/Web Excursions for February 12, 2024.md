@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://brett.trpstra.net&url=https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg
-    alt: "'Web Excursions for February 12, 2024'"
+    alt: "Web Excursions for February 12, 2024"
     relative: false
 ---
 

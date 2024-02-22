@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240219/v2_7df7304088c64550bcab29156d143b95@5091053_oswg29238oswg716oswg179_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'OpenAI首席科学家Ilya离开OpenAI了吗？'"
+    alt: "OpenAI首席科学家Ilya离开OpenAI了吗？"
     relative: false
 ---
 

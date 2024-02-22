@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240220/v2_a08015d3ae1944cea1fd4ac28e9abc52@46958_oswg1326826oswg1038oswg688_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'OpenAI的Sora注定死路一条，Yann LeCun火力全开怒喷：这种实现方式“完全没有现实意义”'"
+    alt: "OpenAI的Sora注定死路一条，Yann LeCun火力全开怒喷：这种实现方式“完全没有现实意义”"
     relative: false
 ---
 

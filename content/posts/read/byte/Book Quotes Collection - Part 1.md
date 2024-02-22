@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=http://lopespm.github.io&url=http://lopespm.github.io/files/book_quotes_1/book_quotes_2_705.png
-    alt: "'Book Quotes Collection - Part 1'"
+    alt: "Book Quotes Collection - Part 1"
     relative: false
 ---
 

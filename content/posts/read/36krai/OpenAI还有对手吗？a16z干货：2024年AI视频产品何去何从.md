@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240219/v2_d8a3914ba0324e70b76c61ebdc73a1ee@5091053_oswg112980oswg698oswg357_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'OpenAI还有对手吗？a16z干货：2024年AI视频产品何去何从'"
+    alt: "OpenAI还有对手吗？a16z干货：2024年AI视频产品何去何从"
     relative: false
 ---
 

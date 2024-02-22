@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=http://lopespm.github.io&url=http://lopespm.github.io/files/custom_pomodoro/timer_full_dialog.png
-    alt: "'Custom Pomodoro Technique'"
+    alt: "Custom Pomodoro Technique"
     relative: false
 ---
 

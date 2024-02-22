@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://sspai.com&url=https://cdn.sspai.com/2024/02/18/4317aa6ecbe57cca9f25fbae1bd2d0cf.gif
-    alt: "'派早报：Sora 视频生成模型公布研发进展，nginx 主要维护者宣布分叉'"
+    alt: "派早报：Sora 视频生成模型公布研发进展，nginx 主要维护者宣布分叉"
     relative: false
 ---
 

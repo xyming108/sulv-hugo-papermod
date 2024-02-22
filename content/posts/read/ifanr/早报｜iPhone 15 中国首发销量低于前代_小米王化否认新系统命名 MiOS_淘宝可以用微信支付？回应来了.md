@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.ifanr.com&url=https://s3.ifanr.com/images/ep/cover-images/shan_mai_hai_yang_cover.jpg
-    alt: "'早报｜iPhone 15 中国首发销量低于前代/小米王化否认新系统命名 MiOS/淘宝可以用微信支付？回应来了'"
+    alt: "早报｜iPhone 15 中国首发销量低于前代/小米王化否认新系统命名 MiOS/淘宝可以用微信支付？回应来了"
     relative: false
 ---
 

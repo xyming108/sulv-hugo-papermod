@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://brett.trpstra.net&url=https://brett.trpstra.net/link/535/16553334.gif
-    alt: "'Checking for a VPN connection part 2'"
+    alt: "Checking for a VPN connection part 2"
     relative: false
 ---
 

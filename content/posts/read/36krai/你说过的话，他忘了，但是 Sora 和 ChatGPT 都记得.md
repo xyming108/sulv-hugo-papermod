@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240220/v2_c66e5682aac549788108510a7dbfdcc9@5091053_oswg67703oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'你说过的话，他忘了，但是 Sora 和 ChatGPT 都记得'"
+    alt: "你说过的话，他忘了，但是 Sora 和 ChatGPT 都记得"
     relative: false
 ---
 

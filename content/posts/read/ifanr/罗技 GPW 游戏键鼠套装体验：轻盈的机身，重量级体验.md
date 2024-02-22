@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.ifanr.com&url=https://s3.ifanr.com/wp-content/uploads/2023/10/35AAA8410.jpg
-    alt: "'罗技 GPW 游戏键鼠套装体验：轻盈的机身，重量级体验'"
+    alt: "罗技 GPW 游戏键鼠套装体验：轻盈的机身，重量级体验"
     relative: false
 ---
 

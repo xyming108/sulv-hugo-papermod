@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Letters with Kev Quirk'"
+    alt: "Letters with Kev Quirk"
     relative: false
 ---
 

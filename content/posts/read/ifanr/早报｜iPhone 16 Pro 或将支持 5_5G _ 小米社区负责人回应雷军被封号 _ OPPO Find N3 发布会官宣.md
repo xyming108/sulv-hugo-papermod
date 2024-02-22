@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.ifanr.com&url=https://s3.ifanr.com/images/ep/cover-images/ye_wai_xi_liu_hou_kong_fan_cover.jpg
-    alt: "'早报｜iPhone 16 Pro 或将支持 5.5G / 小米社区负责人回应雷军被封号 / OPPO Find N3 发布会官宣'"
+    alt: "早报｜iPhone 16 Pro 或将支持 5.5G / 小米社区负责人回应雷军被封号 / OPPO Find N3 发布会官宣"
     relative: false
 ---
 

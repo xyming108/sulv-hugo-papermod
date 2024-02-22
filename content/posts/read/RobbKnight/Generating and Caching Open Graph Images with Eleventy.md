@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://rknight.me&url=https://rknight.me/assets/ogi/bloggenerating-and-caching-open-graph-images-with-eleventy.png
-    alt: "'Generating and Caching Open Graph Images with Eleventy'"
+    alt: "Generating and Caching Open Graph Images with Eleventy"
     relative: false
 ---
 

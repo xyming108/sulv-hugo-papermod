@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://rknight.me&url=https://rknightuk.s3.amazonaws.com/site/eleventy-plugin-post-graph-screenshot.png
-    alt: "'Eleventy Post Graph Plugin'"
+    alt: "Eleventy Post Graph Plugin"
     relative: false
 ---
 

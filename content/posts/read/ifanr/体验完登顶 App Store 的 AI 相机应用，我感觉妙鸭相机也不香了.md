@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.ifanr.com&url=https://s3.ifanr.com/wp-content/uploads/2023/10/musk655.jpeg
-    alt: "'体验完登顶 App Store 的 AI 相机应用，我感觉妙鸭相机也不香了'"
+    alt: "体验完登顶 App Store 的 AI 相机应用，我感觉妙鸭相机也不香了"
     relative: false
 ---
 

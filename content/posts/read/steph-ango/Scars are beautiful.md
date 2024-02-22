@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://stephanango.com&url=https://stephanango.com/assets/scars.png
-    alt: "'Scars are beautiful'"
+    alt: "Scars are beautiful"
     relative: false
 ---
 

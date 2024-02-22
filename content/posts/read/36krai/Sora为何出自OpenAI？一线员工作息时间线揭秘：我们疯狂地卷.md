@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240221/v2_9259d69066264e019bbdc438124a774c@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'Sora为何出自OpenAI？一线员工作息时间线揭秘：我们疯狂地卷'"
+    alt: "Sora为何出自OpenAI？一线员工作息时间线揭秘：我们疯狂地卷"
     relative: false
 ---
 

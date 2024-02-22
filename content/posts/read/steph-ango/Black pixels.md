@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://stephanango.com&url=https://kepano.s3.amazonaws.com/prometheus-ui.jpg
-    alt: "'Black pixels'"
+    alt: "Black pixels"
     relative: false
 ---
 

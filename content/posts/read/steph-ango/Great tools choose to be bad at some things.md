@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://stephanango.com&url=https://kepano.s3.amazonaws.com/tools-triangle.png
-    alt: "'Great tools choose to be bad at some things'"
+    alt: "Great tools choose to be bad at some things"
     relative: false
 ---
 

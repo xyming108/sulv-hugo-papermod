@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Relative Cost / Benefit of an Investment'"
+    alt: "Relative Cost / Benefit of an Investment"
     relative: false
 ---
 

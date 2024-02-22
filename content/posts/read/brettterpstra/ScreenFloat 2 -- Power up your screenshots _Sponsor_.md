@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://brett.trpstra.net&url=https://cdn3.brettterpstra.com/uploads/2024/01/screenfloat-800.jpg
-    alt: "'ScreenFloat 2 -- Power up your screenshots [Sponsor]'"
+    alt: "ScreenFloat 2 -- Power up your screenshots [Sponsor]"
     relative: false
 ---
 

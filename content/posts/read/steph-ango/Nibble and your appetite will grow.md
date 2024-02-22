@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Nibble and your appetite will grow'"
+    alt: "Nibble and your appetite will grow"
     relative: false
 ---
 

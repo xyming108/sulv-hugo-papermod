@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://sspai.com&url=https://cdn.sspai.com/editor/u_/cn9idd5b34ten0fq4080?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
-    alt: "'派评 | 近期值得关注的 App'"
+    alt: "派评 | 近期值得关注的 App"
     relative: false
 ---
 

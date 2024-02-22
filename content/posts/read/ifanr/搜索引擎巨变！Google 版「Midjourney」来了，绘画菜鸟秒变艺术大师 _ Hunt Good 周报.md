@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.ifanr.com&url=https://s3.ifanr.com/wp-content/uploads/2023/10/6-6.jpg
-    alt: "'搜索引擎巨变！Google 版「Midjourney」来了，绘画菜鸟秒变艺术大师 | Hunt Good 周报'"
+    alt: "搜索引擎巨变！Google 版「Midjourney」来了，绘画菜鸟秒变艺术大师 | Hunt Good 周报"
     relative: false
 ---
 

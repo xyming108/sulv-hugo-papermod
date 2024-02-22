@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://sspai.com&url=https://cdn.sspai.com/2024/02/22/6bf5e03ba72eea7a9a6f3d1f55e02f5b.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
-    alt: "'派早报：Apple Music 新增每月统计功能、《艾尔登法环》推出 DLC 等'"
+    alt: "派早报：Apple Music 新增每月统计功能、《艾尔登法环》推出 DLC 等"
     relative: false
 ---
 

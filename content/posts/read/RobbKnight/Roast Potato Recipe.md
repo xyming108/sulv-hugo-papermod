@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://rknight.me&url=https://rknightuk.s3.amazonaws.com/site/roast-potatoes.jpg
-    alt: "'Roast Potato Recipe'"
+    alt: "Roast Potato Recipe"
     relative: false
 ---
 

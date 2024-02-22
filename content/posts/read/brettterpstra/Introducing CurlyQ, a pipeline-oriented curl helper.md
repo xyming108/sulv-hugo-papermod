@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://brett.trpstra.net&url=https://cdn3.brettterpstra.com/uploads/2024/01/curlyq_header-rb.jpg
-    alt: "'Introducing CurlyQ, a pipeline-oriented curl helper'"
+    alt: "Introducing CurlyQ, a pipeline-oriented curl helper"
     relative: false
 ---
 

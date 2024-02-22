@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://sspai.com&url=https://cdn.sspai.com/2023/07/29/article/97fd8a3c64f61c5efa37e55224b736f6?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
-    alt: "'家用咖啡手册（番外） | 随心所欲，这是你的「拼配豆」DIY 指南'"
+    alt: "家用咖啡手册（番外） | 随心所欲，这是你的「拼配豆」DIY 指南"
     relative: false
 ---
 

@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240218/v2_6ceab620d60449e8948259fa537fab61@000000_oswg593203oswg1080oswg462_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'OpenAI Sora核心技术，被曝缝合自DeepMind和谢赛宁论文？机器模拟人类世界迈出第一步'"
+    alt: "OpenAI Sora核心技术，被曝缝合自DeepMind和谢赛宁论文？机器模拟人类世界迈出第一步"
     relative: false
 ---
 

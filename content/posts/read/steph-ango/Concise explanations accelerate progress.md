@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Concise explanations accelerate progress'"
+    alt: "Concise explanations accelerate progress"
     relative: false
 ---
 

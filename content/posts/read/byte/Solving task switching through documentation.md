@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Solving task switching through documentation'"
+    alt: "Solving task switching through documentation"
     relative: false
 ---
 

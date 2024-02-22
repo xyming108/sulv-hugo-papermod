@@ -1,5 +1,5 @@
 ---
-title: "The real question behind 'what do you want?'"
+title: "The real question behind 'what do you want?"
 categories: ['byte']
 keywords: ['byte']
 date: None
@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: ""The real question behind 'what do you want?'""
+    alt: ""The real question behind 'what do you want?""
     relative: false
 ---
 

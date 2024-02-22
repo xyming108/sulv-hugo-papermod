@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.ifanr.com&url=https://s3.ifanr.com/wp-content/uploads/2023/10/AAA8182.jpg
-    alt: "'天龙 Denon PerL 真无线降噪耳机发布：功能完整的标准款真无线，还比你更了解你的耳朵'"
+    alt: "天龙 Denon PerL 真无线降噪耳机发布：功能完整的标准款真无线，还比你更了解你的耳朵"
     relative: false
 ---
 

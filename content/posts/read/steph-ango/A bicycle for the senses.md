@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'A bicycle for the senses'"
+    alt: "A bicycle for the senses"
     relative: false
 ---
 

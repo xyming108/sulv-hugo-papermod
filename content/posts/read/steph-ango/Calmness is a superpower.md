@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Calmness is a superpower'"
+    alt: "Calmness is a superpower"
     relative: false
 ---
 

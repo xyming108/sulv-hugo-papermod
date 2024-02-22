@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://sspai.com&url=https://cdn.sspai.com/2024/02/12/a3c35bb3303444b101878806954c2dd2.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
-    alt: "'演示大考：全新家具、个性化试戴，Vision Pro 发布对零售店的一次大考'"
+    alt: "演示大考：全新家具、个性化试戴，Vision Pro 发布对零售店的一次大考"
     relative: false
 ---
 

@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'The case for not having a TV'"
+    alt: "The case for not having a TV"
     relative: false
 ---
 

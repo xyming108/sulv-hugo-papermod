@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'派早报：Intel 被指控夸大 CPU 测试结果，英国芯片制造商 Graphcore 寻求出售等'"
+    alt: "派早报：Intel 被指控夸大 CPU 测试结果，英国芯片制造商 Graphcore 寻求出售等"
     relative: false
 ---
 

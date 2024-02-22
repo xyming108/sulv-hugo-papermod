@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://sspai.com&url=https://cdn.sspai.com/2024/02/03/article/bcceea2c550916b21de45856b013bf59?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
-    alt: "'用浏览器思路，为 iPad 带来桌面级体验：Lok Board'"
+    alt: "用浏览器思路，为 iPad 带来桌面级体验：Lok Board"
     relative: false
 ---
 

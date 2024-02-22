@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://brett.trpstra.net&url=https://cdn3.brettterpstra.com/uploads/2023/09/keyboardmaestro2024-winners-rb.jpg
-    alt: "'The Keyboard Maestro giveaway winner!'"
+    alt: "The Keyboard Maestro giveaway winner!"
     relative: false
 ---
 

@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240220/v2_ea066c1af2504e3c82633918772c18ea@46958_oswg221364oswg1030oswg408_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'爆火Sora震惊威尔·史密斯，真人整活吃意面视频，OpenAI技术路线或早在1月被成功预言'"
+    alt: "爆火Sora震惊威尔·史密斯，真人整活吃意面视频，OpenAI技术路线或早在1月被成功预言"
     relative: false
 ---
 

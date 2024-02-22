@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240219/v2_8b176376b01744fcb25ae31407f97db9@5091053_oswg179140oswg706oswg568_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'Sora爆火，一次典型的OpenAI式胜利'"
+    alt: "Sora爆火，一次典型的OpenAI式胜利"
     relative: false
 ---
 

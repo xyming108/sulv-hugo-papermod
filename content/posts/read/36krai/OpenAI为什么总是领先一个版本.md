@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240218/v2_7c562287fc7146969c19a46dd4c139d7@46958_oswg163044oswg742oswg489_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'OpenAI为什么总是领先一个版本'"
+    alt: "OpenAI为什么总是领先一个版本"
     relative: false
 ---
 

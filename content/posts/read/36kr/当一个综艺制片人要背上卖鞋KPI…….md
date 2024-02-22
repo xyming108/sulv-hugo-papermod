@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240207/v2_2952bdbf77e54679a54885dda1cf4c14@5624726_oswg71645oswg900oswg831_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'当一个综艺制片人要背上卖鞋KPI……'"
+    alt: "当一个综艺制片人要背上卖鞋KPI……"
     relative: false
 ---
 

@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'The Web is Fantastic'"
+    alt: "The Web is Fantastic"
     relative: false
 ---
 

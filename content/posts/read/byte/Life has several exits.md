@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Life has several exits'"
+    alt: "Life has several exits"
     relative: false
 ---
 

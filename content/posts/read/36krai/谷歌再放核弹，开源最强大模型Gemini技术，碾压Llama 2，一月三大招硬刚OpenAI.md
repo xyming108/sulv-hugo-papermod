@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240222/v2_d3c7915dd4ff4c68976327878f8fc118@000000_oswg336742oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'谷歌再放核弹，开源最强大模型Gemini技术，碾压Llama 2，一月三大招硬刚OpenAI'"
+    alt: "谷歌再放核弹，开源最强大模型Gemini技术，碾压Llama 2，一月三大招硬刚OpenAI"
     relative: false
 ---
 

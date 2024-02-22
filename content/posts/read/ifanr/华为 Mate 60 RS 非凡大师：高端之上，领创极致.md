@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.ifanr.com&url=https://s3.ifanr.com/wp-content/uploads/2023/10/2C7A1360.jpg
-    alt: "'华为 Mate 60 RS 非凡大师：高端之上，领创极致'"
+    alt: "华为 Mate 60 RS 非凡大师：高端之上，领创极致"
     relative: false
 ---
 

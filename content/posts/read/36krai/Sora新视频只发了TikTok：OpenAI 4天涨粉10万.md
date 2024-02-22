@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240221/v2_cdf0a4e6f4304fa1b3286806077af483@5667365_oswg208086oswg1080oswg1706_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'Sora新视频只发了TikTok：OpenAI 4天涨粉10万'"
+    alt: "Sora新视频只发了TikTok：OpenAI 4天涨粉10万"
     relative: false
 ---
 

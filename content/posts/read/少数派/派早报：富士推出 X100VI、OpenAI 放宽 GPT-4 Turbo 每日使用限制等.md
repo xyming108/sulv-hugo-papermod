@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://sspai.com&url=https://cdn.sspai.com/editor/u_/cnadvulb34tenbpc0pcg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
-    alt: "'派早报：富士推出 X100VI、OpenAI 放宽 GPT-4 Turbo 每日使用限制等'"
+    alt: "派早报：富士推出 X100VI、OpenAI 放宽 GPT-4 Turbo 每日使用限制等"
     relative: false
 ---
 

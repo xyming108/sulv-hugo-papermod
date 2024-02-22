@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://rknight.me&url=https://rknightuk.s3.amazonaws.com/site/omg-lol-st-jude-stickers.jpg
-    alt: "'Just 2023 Things'"
+    alt: "Just 2023 Things"
     relative: false
 ---
 

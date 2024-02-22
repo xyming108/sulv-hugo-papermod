@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240220/v2_739da699a88b47c0aa360927a2b0c85a@000000_oswg36768oswg1020oswg217_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'几小时前，OpenAI 爆款工具 Sora 被取消了静音模式'"
+    alt: "几小时前，OpenAI 爆款工具 Sora 被取消了静音模式"
     relative: false
 ---
 

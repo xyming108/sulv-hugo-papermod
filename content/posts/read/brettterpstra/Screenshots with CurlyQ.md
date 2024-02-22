@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://brett.trpstra.net&url=https://cdn3.brettterpstra.com/uploads/2024/01/curlyq_screenshot_header-rb.jpg
-    alt: "'Screenshots with CurlyQ'"
+    alt: "Screenshots with CurlyQ"
     relative: false
 ---
 

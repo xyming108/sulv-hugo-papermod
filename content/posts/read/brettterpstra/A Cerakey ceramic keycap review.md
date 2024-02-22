@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://brett.trpstra.net&url=https://cdn3.brettterpstra.com/uploads/2024/02/connected-unlit.jpg
-    alt: "'A Cerakey ceramic keycap review'"
+    alt: "A Cerakey ceramic keycap review"
     relative: false
 ---
 

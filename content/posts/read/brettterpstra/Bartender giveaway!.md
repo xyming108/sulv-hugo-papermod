@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://brett.trpstra.net&url=https://cdn3.brettterpstra.com/uploads/2023/09/giveaway-bartender2024-rb.jpg
-    alt: "'Bartender giveaway!'"
+    alt: "Bartender giveaway!"
     relative: false
 ---
 

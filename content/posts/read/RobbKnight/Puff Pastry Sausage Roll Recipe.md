@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://rknight.me&url=https://rknightuk.s3.amazonaws.com/site/sausage-rolls.jpg
-    alt: "'Puff Pastry Sausage Roll Recipe'"
+    alt: "Puff Pastry Sausage Roll Recipe"
     relative: false
 ---
 

@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Writing as a form of thinking'"
+    alt: "Writing as a form of thinking"
     relative: false
 ---
 

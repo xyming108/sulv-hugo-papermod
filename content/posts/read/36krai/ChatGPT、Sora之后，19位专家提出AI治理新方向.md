@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240219/v2_cc9b47e61a004858a2732179b4798f87@5091053_oswg1824382oswg1380oswg794_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'ChatGPT、Sora之后，19位专家提出AI治理新方向'"
+    alt: "ChatGPT、Sora之后，19位专家提出AI治理新方向"
     relative: false
 ---
 

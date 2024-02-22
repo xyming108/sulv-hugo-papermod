@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240207/v2_e496d832cd5e4daba71b39950ea3114a@5783683_oswg237653oswg1280oswg858_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'2024 AI 展望：OpenAI再打响指，我们还能期盼什么？'"
+    alt: "2024 AI 展望：OpenAI再打响指，我们还能期盼什么？"
     relative: false
 ---
 

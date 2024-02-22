@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Make the meme transcend its host'"
+    alt: "Make the meme transcend its host"
     relative: false
 ---
 

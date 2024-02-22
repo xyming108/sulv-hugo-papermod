@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240208/v2_855b6f3204e44bc9b85ec9894c379d03@000000_oswg326329oswg1080oswg850_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'Bard 出局、Gemini 独立+收费，谷歌在 AI 大战中找到了感觉'"
+    alt: "Bard 出局、Gemini 独立+收费，谷歌在 AI 大战中找到了感觉"
     relative: false
 ---
 

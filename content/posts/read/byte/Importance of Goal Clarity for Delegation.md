@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Importance of Goal Clarity for Delegation'"
+    alt: "Importance of Goal Clarity for Delegation"
     relative: false
 ---
 

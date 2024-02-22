@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://sspai.com&url=https://cdn.sspai.com/2024/02/19/13217c8a06a0d0ee0a4b3b6eb31d9ff6.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
-    alt: "'一日一技 | 用快捷指令一键切换 Mac 音频输出设备'"
+    alt: "一日一技 | 用快捷指令一键切换 Mac 音频输出设备"
     relative: false
 ---
 

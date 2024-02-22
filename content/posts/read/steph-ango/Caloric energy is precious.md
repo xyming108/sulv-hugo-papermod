@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Caloric energy is precious'"
+    alt: "Caloric energy is precious"
     relative: false
 ---
 

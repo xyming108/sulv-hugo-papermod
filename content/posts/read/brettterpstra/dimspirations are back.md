@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://brett.trpstra.net&url=https://cdn3.brettterpstra.com/uploads/2024/02/dimspirations-header-rb.jpg
-    alt: "'#dimspirations are back'"
+    alt: "#dimspirations are back"
     relative: false
 ---
 

@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Advent of Code 2023: Day Seven'"
+    alt: "Advent of Code 2023: Day Seven"
     relative: false
 ---
 

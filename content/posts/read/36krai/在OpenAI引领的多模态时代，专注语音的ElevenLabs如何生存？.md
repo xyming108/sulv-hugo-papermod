@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240221/v2_035b2de34d924b4499a204533eb15f49@000000_oswg582575oswg910oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'在OpenAI引领的多模态时代，专注语音的ElevenLabs如何生存？'"
+    alt: "在OpenAI引领的多模态时代，专注语音的ElevenLabs如何生存？"
     relative: false
 ---
 

@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.36kr.com&url=https://img.36krcdn.com/hsossms/20240208/v2_91476f1f07d54c35ba458be86952a933@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1
-    alt: "'Google也推出了“AI付费套餐”，和ChatGPT比哪个值？'"
+    alt: "Google也推出了“AI付费套餐”，和ChatGPT比哪个值？"
     relative: false
 ---
 

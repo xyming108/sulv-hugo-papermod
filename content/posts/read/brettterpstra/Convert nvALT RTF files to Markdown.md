@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://brett.trpstra.net&url=https://cdn3.brettterpstra.com/images/shortcutsicon.png
-    alt: "'Convert nvALT RTF files to Markdown'"
+    alt: "Convert nvALT RTF files to Markdown"
     relative: false
 ---
 

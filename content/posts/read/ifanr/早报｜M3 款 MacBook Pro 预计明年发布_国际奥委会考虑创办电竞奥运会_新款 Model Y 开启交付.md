@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: cdn.g0f.cn/?r=https://www.ifanr.com&url=https://s3.ifanr.com/images/ep/cover-images/tu_bu_cover.jpg
-    alt: "'早报｜M3 款 MacBook Pro 预计明年发布/国际奥委会考虑创办电竞奥运会/新款 Model Y 开启交付'"
+    alt: "早报｜M3 款 MacBook Pro 预计明年发布/国际奥委会考虑创办电竞奥运会/新款 Model Y 开启交付"
     relative: false
 ---
 
