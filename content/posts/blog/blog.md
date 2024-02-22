@@ -1,4 +1,4 @@
-![image](https://github.com/g0fcn/hugo-blog/assets/156695055/a6e3941e-d210-40b7-a61e-4d375d1b1417)---
+---
 title: "Blog"
 date: 2022-05-05T00:18:23+08:00
 lastmod: 2022-05-05T00:18:23+08:00
