@@ -45,7 +45,7 @@ menu:
       weight: 3
     - identifier: talk
       name: 💬 说说
-      url: links
+      url: talk
       weight: 4
     - identifier: tags
       name: 🧩 标签
