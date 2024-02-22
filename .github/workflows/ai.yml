@@ -1,0 +1,97 @@
+name: Build hugo site and publish
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build Public
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+          submodules: 'true'
+
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11.4'
+          cache: 'pip'
+
+      - name: Install pip dependencies 
+        run: |
+          cd ai-summary-hugo
+          pip install -r requirements.txt  
+
+      - name: Run python script
+        run: |
+          cd ai-summary-hugo
+          python main.py
+          cd .. 
+          if [[ $(git status --porcelain) ]]; then
+            echo "SUMMARY_CHANGE=true" >> "$GITHUB_ENV"
+          else
+            echo "SUMMARY_CHANGE=false" >> "$GITHUB_ENV"
+          fi
+
+      - name: Commit files
+        if: env.SUMMARY_CHANGE == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/summary/summary.json
+          git commit -a -m "perf(summary): mod or add summary"
+
+      - name: Push changes
+        if: env.SUMMARY_CHANGE == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.head_ref }}
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build site 
+        run: hugo
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: public
+          path: public/
+
+  cloudflare_deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Deploy to Cloudflare Pages
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: public
+          path: public
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: YOUR_PROJECT_NAME
+          directory: public
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
