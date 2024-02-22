@@ -4,7 +4,7 @@
 
 ### [博客DEMO](https://xyming108.github.io/)
 
-## 1. git clone 拉取代码
+## 1. git clone 拉取代码 
 
 ① 用`git clone`的方式拉取代码至桌面，此时会在桌面生成sulv-hugo-papermod目录
 
