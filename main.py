@@ -107,7 +107,8 @@ keywords: {tag}
 date: {date}
 lastmod: {date}
 author: [{tag}]
-tags: {tag}
+tags: 
+- {tag}
 draft: false 
 comments: true
 reward: true 
@@ -118,8 +119,8 @@ hidemeta: false
 disableShare: true 
 showbreadcrumbs: true 
 cover:
-    image: {img}
-    alt: {title}
+    image: "/hugo-logo-wide.svg"
+    alt: 果粉圈
     relative: false
 ---
 
@@ -218,20 +219,20 @@ def get_post(res,item):
       url = urlparse(link)
       loc = url.scheme+"://"+url.netloc
       # 反防盗链 cors
-      text = text.replace('src="https://','src="'+CORS_API+'/?r='+loc+'&url=https://')
-      text = text.replace('src="http://','src="'+CORS_API+'/?r='+loc+'&url=http://')
-      text = text.replace('="/','="'+CORS_API+'/?r='+loc+'&url='+loc+'/')
-      text = text.replace('="../','="'+CORS_API+'/?r='+loc+'&url='+loc+'/../')
-      if img:
-        print(img)
-        img = img.replace('https://',CORS_API+'/?r='+loc+'&url=https://')
-        img = img.replace('http://',CORS_API+'/?r='+loc+'&url=http://')
-        img = re.compile(r'^\/').sub(CORS_API+'/?r='+loc+'&url='+loc+'/', img, 1)
-        img = img.replace('../',CORS_API+'/?r='+loc+'&url='+loc+'/../',1)
-    elif img:
-      img = img.replace('http://',CORS_API+'/?url=http://')
-    if not img:
-      img = "https://www.g0f.cn/img/banner.jpg"
+    #   text = text.replace('src="https://','src="'+CORS_API+'/?r='+loc+'&url=https://')
+    #   text = text.replace('src="http://','src="'+CORS_API+'/?r='+loc+'&url=http://')
+    #   text = text.replace('="/','="'+CORS_API+'/?r='+loc+'&url='+loc+'/')
+    #   text = text.replace('="../','="'+CORS_API+'/?r='+loc+'&url='+loc+'/../')
+    #   if img:
+    #     print(img)
+    #     img = img.replace('https://',CORS_API+'/?r='+loc+'&url=https://')
+    #     img = img.replace('http://',CORS_API+'/?r='+loc+'&url=http://')
+    #     img = re.compile(r'^\/').sub(CORS_API+'/?r='+loc+'&url='+loc+'/', img, 1)
+    #     img = img.replace('../',CORS_API+'/?r='+loc+'&url='+loc+'/../',1)
+    # elif img:
+    #   img = img.replace('http://',CORS_API+'/?url=http://')
+    # if not img:
+    #   img = "https://www.g0f.cn/img/banner.jpg"
 
     
     md_content = md_temple
