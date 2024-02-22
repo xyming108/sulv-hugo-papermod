@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: "'Job Safety in the AI Era'"
+    alt: "Job Safety in the AI Era"
     relative: false
 ---
 
