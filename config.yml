@@ -120,21 +120,21 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/xyming108"
+      url: "https://github.com/"
     - name: twitter
       url: "img/twitter.png"
     - name: facebook
-      url: "https://www.facebook.com/profile.php?id=100027782410997"
+      url: "https://www.facebook.com/"
     - name: instagram
-      url: "img/instagram.png"
+      url: "img/banner.jpg"
     - name: QQ
-      url: "img/qq.png"
+      url: "img/banner.jpg"
     - name: WeChat
-      url: "img/wechat.png"
+      url: "img/banner.jpg"
     - name: bilibili
-      url: "https://space.bilibili.com/234461224"
+      url: "https://space.bilibili.com/"
     - name: email
-      url: "mailto:1931559710@qq.com"
+      url: "mailto:840263997@qq.com"
     - name: RSS
       url: "index.xml"
 
