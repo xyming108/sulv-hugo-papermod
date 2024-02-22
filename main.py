@@ -247,7 +247,7 @@ def get_post(res,item):
         md_content = md_content.replace('{', '&#123;')
         md_content = md_content.replace('}', '&#125;')
         # print(link)
-        md_content = md_content.replace('<!-- tag_link -->', f'本文由[{tag}]({link})原创')
+        md_content = md_content.replace('<!-- tag_link -->', f'[原文]({link})')
         print('---------------------------')
         print('发布时间：', pubdate)
         print('标题：', title)
