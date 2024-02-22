@@ -105,8 +105,9 @@ title: {title}
 categories: {cat}
 date: {date}
 lastmod: {date}
-author: [{tag}]
-tags:{tag}
+author: ["g0f"]
+tags:
+- read
 draft: false 
 comments: true
 reward: true 
