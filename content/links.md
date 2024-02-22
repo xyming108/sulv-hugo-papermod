@@ -17,6 +17,7 @@ showbreadcrumbs: false
 {{< friend name="果粉圈" url="https://www.g0f.cn/" logo="https://www.g0f.cn//img/Q.gif" word="一个记录技术、阅读、生活的博客" >}}
 {{< friend name="大大的蜗牛" url="https://www.eallion.com/" logo="https://www.eallion.com/favicon-32x32.png" word="我喜欢的OG Image" >}}
 {{< friend name="五木" url="https://immmmm.com/" logo="https://immmmm.com/favicon.ico" word="我hugo的开始" >}}
+{{< friend name="文生图" url="https://cover.eallion.com/" logo="https://cover.eallion.com/favicon.ico" word="好动西" >}}
 
 
 
