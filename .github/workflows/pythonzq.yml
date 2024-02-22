@@ -41,7 +41,7 @@ jobs:
 
       - name: 提交新的博客文章
         run: |
-          git add content/post/*
+          git add content/posts/*
           git commit -m "Add new posts via GitHub Actions" || echo "No new posts to commit."
           git push origin main
 
