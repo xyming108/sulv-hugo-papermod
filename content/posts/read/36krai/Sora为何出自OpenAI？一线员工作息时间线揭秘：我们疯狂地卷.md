@@ -1,0 +1,36 @@
+---
+title: 'Sora为何出自OpenAI？一线员工作息时间线揭秘：我们疯狂地卷'
+categories: ['36krai']
+date: Wed, 21 Feb 2024 04:11:58 GMT
+lastmod: Wed, 21 Feb 2024 04:11:58 GMT
+author: ["g0f"]
+tags:
+- read
+draft: false 
+comments: true
+reward: true 
+mermaid: true 
+showToc: true 
+TocOpen: true 
+hidemeta: false 
+disableShare: true 
+showbreadcrumbs: true 
+cover:
+    image: "/hugo-logo-wide.svg"
+    alt: 果粉圈
+    relative: false
+---
+
+<div>
+
+<div> OpenAI, Sora, 聚集人才, 工作强度, 商业模式明确<br/>
+<br/>
+OpenAI率先打造出了Sora，其成功原因在于明确的商业模式和目标，以及系统性的方法论。公司聚集了大量人才，他们为实现目标付出了巨大的工作强度。从员工的日常工作时间线可以看出，OpenAI的人才在付出巨大努力的同时，努力保持工作与生活的平衡。最终，这些努力促使OpenAI持续推动着实现通用人工智能的目标，展现了一家前沿研究机构该有的样子。<br/><br/>总结: OpenAI率先打造出了Sora，其成功原因在于明确的商业模式和目标，以及系统性的方法论。公司聚集了大量人才，他们为实现目标付出了巨大的工作强度。从员工的日常工作时间线可以看出，OpenAI的人才在付出巨大努力的同时，努力保持工作与生活的平衡。最终，这些努力促使OpenAI持续推动着实现通用人工智能的目标，展现了一家前沿研究机构该有的样子。 <div>
+<blockquote><p>数数每天几个小时？</p></blockquote><p>为什么是 OpenAI 率先打造出了 Sora？</p><p>现在全世界不论研究员、工程师还是投资人都在问这个问题。</p><p>最近几天，人们对于视频大模型 Sora 的讨论热度持续升高，信息早已破了圈，相关的投资热点都已经出现了两轮。</p><p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20240221/v2_9259d69066264e019bbdc438124a774c@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p><p class="img-desc">Sora 生成的「Flower tiger」视频。试问这种生成能力会催生多少新脑洞？</p><p>在一篇文章中，加州大学伯克利分校计算机科学博士、知乎作者 @SIY.Z 分析了 OpenAI 成功的一些原因，包括：</p><p>目标和商业模式明确：目标就是 all in AGI，一切研究围绕着探索通往 AGI 的路径；商业模式就是 SaaS，直接给 API。</p><p>方法论明确：包括 The bitter lesson（源自 Rich Sutton 的经典文章《苦涩的教训》，核心观点是：人工智能如果想要长期获得提升，利用计算能力才是王道）、Scaling Law、Emerging properties 等。</p><p>@SIY.Z 总结说，「OpenAI 采取的商业模式以及其对于 AGI 的信奉、系统性的方法论以及积极的尝试，都在推动他们朝着实现通用人工智能的目标前进，实现了一种可以跑通所有 AGI 技术栈的模式，而这一点，是 OpenAI 能在众多研究机构和公司中脱颖而出的重要因素。」详情请参见知乎原贴。</p><p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20240221/v2_b64c5da64b1045e788c13013e53ae9a3@000000_oswg857674oswg1080oswg1661_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p><p class="img-desc">知乎原贴地址：https://www.zhihu.com/question/644486081/answer/3398751210?utm_psn=1743584603837992961</p><p>除此之外，我们知道，人才的聚集也是 OpenAI 成功的一个重要因素。这些人才在 OpenAI 是怎么工作的？天才们是不是不需要花多大力气就能做出 ChatGPT、Sora 这种领先的技术成果？答案似乎是否定的。</p><p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20240221/v2_b7f47d98383d4f24b333c8c1c2111876@000000_oswg86805oswg1021oswg474_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p><p>今天凌晨，OpenAI 研究人员 Jason Wei 自曝的每日工作时间线在社交网络上被疯传。</p><p>Jason Wei 本科毕业后加入谷歌，还以一作身份写出了「思维链」的开山之作，现在在 OpenAI 参与打造 ChatGPT。</p><p>我们按时间顺序来看一下这个作息表。</p><p>早上看起来很正常：</p><blockquote><p>9 点起床；</p><p>9 点半乘 Waymo 无人驾驶车去公司，然后吃点牛油果吐司当早饭；</p><p>9 点 45：背诵 OpenAI 章程（核心是确保通用人工智能造福全人类），向最优化的神祷 告，学习《苦涩的教训》；</p><p>10 点用 Google Meet 开会，讨论怎么在更多数据上训练更大的模型；</p><p>11 点写代码，用来在更多数据上训练更大的模型；</p><p>12 点去食堂吃午饭（素食，无麸质）；</p></blockquote><p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20240221/v2_db59e28c9a1747d6958540ad5d634992@000000_oswg715944oswg877oswg1302_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p><p>下午开始增加工作强度：</p><blockquote><p>1 点继续训练模型；</p><p>2 点调试基础设施问题；</p><p>3 点监控模型训练，顺便玩一下 Sora；</p><p>4 点对前面提到的训练的模型进行提示工程；</p><p>4 点半休息一下，坐在牛油果椅子上，想知道 Gemini Ultra 到底有多好；</p><p>5 点进行头脑风暴，思考改进模型的潜在算法；</p><p>5 点 05 得出结论：改变算法风险太大，只扩展计算和数据更安全；</p><p>6 点吃晚饭；</p><p>7 点通勤回家。</p></blockquote><p>然后和很多人一样，夜幕降临，生产力最高的时间段来了：</p><blockquote><p>8 点喝杯酒，继续写代码，此时达到鲍尔默峰值（传说中微软在 80 年代末发现的定律，即程序员在血液酒精浓度在 0.129%~0.138% 时会产生超人的编程能力）；</p><p>9 点：分析实验运行；</p><p>10 点：开始实验，让其整晚运行，第二天早上拿结果；</p><p>凌晨 1 点：真正开始运行实验；</p><p>1 点 15 就寝。默念「Compression is all you need」。</p></blockquote><p>信息量很足，除了学 CEO 奥特曼吃素、揶揄 Teams 不好用之外，看来 OpenAI 的工程师们也极为关心自己竞争对手的动向。</p><p>Meta FAIR 研究院研究员、高级经理田渊栋看完以后表示：都说国外没有 996，其实真正可怕的是自我驱动的卷。</p><p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20240221/v2_3829d269a1fc4477817c66cfe29fd968@000000_oswg263059oswg675oswg643_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p><p>上周末，DiT 论文作者之一的谢赛宁在辟谣自己不是 Sora 作者的同时，也透露了一点项目领头人 William （Bill） Peebles 等人在打造 Sora 时工作强度的信息：</p><p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20240221/v2_9bb20507e2d241ec857fd311e455a347@000000_oswg634945oswg1080oswg1071_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p><p>「每天基本不睡觉高强度工作了一年。」</p><p>上周三，已经二进宫 OpenAI 的知名 AI 学者 Andrej Karpathy 再次宣布离职，这次只待了一年。虽然他表示「没发生什么特别的事情」，不过在第二天又秀了一下日程表：</p><p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20240221/v2_1461bd53859949e283a600dfbcfe97a4@000000_oswg95998oswg971oswg818_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p><p>让人感觉到溢出屏幕的轻松。</p><p>只有产品上线之前的一线工程师才这样吗？并不是。引爆了生成式 AI 的 ChatGPT 项目虽然人数众多，但从上到下都卷得令人生畏。在去年 OpenAI 风头压得谷歌等公司喘不过来气的时候，这家公司的信任与安全主管 Dave Willner 却在领英上自宣辞职，原因就是「太卷了」。</p><p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20240221/v2_0987a8b6e901446b934c2aa4bdabc4ff@000000_oswg403573oswg1080oswg939_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p><p>Willner 在 7 月 20 日发布的一个帖子上表示，将辞去 OpenAI 高管职务，优先考虑工作与生活的平衡，辞职是一个「相当容易做出的选择」。</p><p>他表示，虽然领导 OpenAI 安全项目的工作是「当今最酷、最有趣的工作之一」，但自从 2022 年 2 月加入该公司以来，他的工作范围和规模大幅增长。自从 ChatGPT 推出以来，将家庭需求置于工作之上已变得越来越困难。</p><p>Willner 的声明得到了同行们的一致支持，包括那些在 Meta、谷歌和 AirBnb 担任管理职务的人，评论者们认为 Willner 辞职的选择明智且鼓舞人心，并表示他勇敢地公开了自己不断变化的优先事项。</p><p>随后的故事我们已经知道了：谷歌 Gemini 继续追赶，上个星期，Sora 再次扩大了 OpenAI 的领先优势。</p><p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20240221/v2_fa2b3b0a184a4bd3a5826eecb64efe8c@000000_oswg118454oswg1080oswg304_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p><p>看起来，天下没有免费的午餐。</p><p>选对方向，坚持信念，向着 AGI 的目标前进，OpenAI 这些年的起起伏伏向我们生动展示了一家前沿研究机构该有的样子。</p><p><strong>参考内容：</strong></p><p>https://twitter.com/_jasonwei/status/1760032264120041684</p><p>https://twitter.com/minchoi/status/1759932670782410880</p><p>https://www.businessinsider.com/open-ai-sam-altman-daily-routine-schedule-for-productivity-2024-1</p><p>https://www.businessinsider.com/openai-chatgpt-exec-resigns-work-life-balance-time-with-kids-2023-7</p><p>本文来自微信公众号<a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2650908204&amp;idx=1&amp;sn=8098384db21fbb9e0c23ff7cab444d63&amp;chksm=853db8511f24ce91d8d6af47032e8159202bafee5c9dad015e2fc41f866b4459c0cea554ff7c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“机器之心”（ID：almosthuman2014）</a>，作者：机器之心，编辑：泽南、张倩，36氪经授权发布。</p>
+</div></div>
+</div>
+
+<div>
+[原文](https://www.36kr.com/p/2657737128279171)
+</div>
+
