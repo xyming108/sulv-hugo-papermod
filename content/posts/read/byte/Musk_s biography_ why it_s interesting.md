@@ -17,7 +17,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: https://www.g0f.cn/img/banner.jpg
-    alt: ""Musk's biography: why it's interesting""
+    alt: "Musk's biography: why it's interesting"
     relative: false
 ---
 
