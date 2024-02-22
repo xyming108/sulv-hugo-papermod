@@ -103,12 +103,10 @@ def dfs_route(route_config, path):
 md_temple = '''---
 title: {title}
 categories: {cat}
-keywords: {tag}
 date: {date}
 lastmod: {date}
 author: [{tag}]
-tags: 
-- {tag}
+tags:{tag}
 draft: false 
 comments: true
 reward: true 
@@ -162,6 +160,7 @@ def get_post(res,item):
     encoded=""
     content=""
     summary=""
+    author=""
     
     for child in i.children:
       childName = child.name
