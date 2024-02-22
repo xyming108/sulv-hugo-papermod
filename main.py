@@ -92,9 +92,9 @@ def dfs_route(route_config, path):
         else:
             dir = "/" + "/".join(path + [key])
             try:
-              os.makedirs('source/_posts/' + dir + '/')
+              os.makedirs('content/posts/read' + dir + '/')
             except Exception as e:
-                print('已存在目录', 'source/_posts/' + dir + '/')
+                print('已存在目录', 'content/posts/read' + dir + '/')
             it = {'path': value, 'cat': path + [key], 'tag': path + [key], 'dir': dir}
             print(it)
             data.append(it)
@@ -240,7 +240,7 @@ def get_post(res,item):
     
     md_content = md_temple
     try:
-      with open('source/_posts/' + dir + '/' + filename + '.md',
+      with open('content/posts/read' + dir + '/' + filename + '.md',
         mode='w',
         encoding='utf-8') as f:
         if "'" in title:
