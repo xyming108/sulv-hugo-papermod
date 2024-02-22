@@ -10,16 +10,13 @@ TocOpen: false
 showbreadcrumbs: false
 ---
 
-<body>
 <!-- 引用 artitalk -->
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
 <!-- 存放说说的容器 -->
 <div id="artitalk_main"></div>
 <script>
 new Artitalk({
-    appId: 'aLVyDmqqIrWux6KB44zM3Nlx-MdYXbMMI',
-    appKey: 'O45ZhnwkS4R3T2KaMW1YX7y6', 
-    
+    appId: 'aLVyDmqqIrWux6KB44zM3Nlx-MdYXbMMI', // Your LeanCloud appId
+    appKey: 'O45ZhnwkS4R3T2KaMW1YX7y6' // Your LeanCloud appKey
 })
 </script>
-</body>
