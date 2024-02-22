@@ -35,8 +35,8 @@ showbreadcrumbs: false
 |        |                                   |
 | ------ | --------------------------------- |
 | 名称： | Sulv's Blog                       |
-| 网址： | https://www.sulvblog.cn           |
-| 图标： | https://www.sulvblog.cn/img/Q.gif |
+| 网址： | https://www.g0f.cn           |
+| 图标： | https://www.g0f.cn/img/Q.gif |
 | 描述： | 一个记录技术、阅读、生活的博客    |
 
 </div>
