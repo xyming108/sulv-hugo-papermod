@@ -177,14 +177,14 @@ params:
   Reward: true #打赏是否开启
   # 打赏微信图片地址，
   # 可用绝对和相对地址，相对地址的图片需放在static/img下，
-  # 填写格式为img/wechat_pay.png
-  WechatPay: img/wechat_pay.png
+  # 填写格式为img/banner.jpg
+  WechatPay: img/banner.jpg
   Alipay: img/alipay.png #打赏支付宝图片地址
 
   # twikoo评论
   twikoo:
-    version: 1.5.8 # 填写twikoo版本号
-    id:  # 填写自己的twikoo id
+    version: 1.6.31 # 填写twikoo版本号
+    id: twikoo.g0f.cn # 填写自己的twikoo id
     region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
 
 taxonomies:
