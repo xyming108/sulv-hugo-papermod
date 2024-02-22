@@ -119,7 +119,7 @@ disableShare: true
 showbreadcrumbs: true 
 cover:
     image: {img}
-    alt: "{title}"
+    alt: {title}
     relative: false
 ---
 
