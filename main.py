@@ -247,10 +247,10 @@ def get_post(res,item):
         md_content = md_content.replace('{', '&#123;')
         md_content = md_content.replace('}', '&#125;')
         # print(link)
-        md_content = md_content.replace('<!-- tag_link -->', '版权声明：
+        md_content = md_content.replace('<!-- tag_link -->', '''版权声明：
 本文为[{tag}]({link})原创，本站仅在原基础上进行总结，受 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 版权协议保护。未经授权，禁止转载。
 如需转载，请务必注明原文出处链接和本声明，且不得用于商业用途。
-感谢您的尊重与支持，您的理解和配合对原创作者至关重要。请尊重知识产权，共同维护良好的网络环境。')
+感谢您的尊重与支持，您的理解和配合对原创作者至关重要。请尊重知识产权，共同维护良好的网络环境。''')
         print('---------------------------')
         print('发布时间：', pubdate)
         print('标题：', title)
