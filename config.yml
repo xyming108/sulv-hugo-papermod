@@ -170,7 +170,7 @@ params:
     keys: [ "title", "permalink", "summary" ]
 
   StartYear: 2020 # 底部开始年份
-  FilingNo: 填写自己的备案号 # 底部备案号
+  FilingNo: #填写自己的备案号 # 底部备案号
   PublicSecurityIconLink: #填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
   PublicNetworkSecurity: #填自己的公网安备 # 底部公网安备号
 
