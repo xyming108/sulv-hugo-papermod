@@ -10,7 +10,7 @@
 
 ② 进入到sulv-hugo-papermod目录，输入`git submodule update --init`，表示拉取themes/hugo-PaperMod/下的子模块，里面放的是官方主题
 
-## 2. 启动界面
+## 2. 启动界面 
 
 ③ 把目录定位到sulv-hugo-papermod下，在终端输入`hugo server -D`，在浏览器输入：localhost:1313 即可看到现成的博客模板。
 
