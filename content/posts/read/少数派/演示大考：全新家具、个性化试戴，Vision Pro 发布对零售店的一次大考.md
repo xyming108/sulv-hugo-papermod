@@ -3,8 +3,9 @@ title: '演示大考：全新家具、个性化试戴，Vision Pro 发布对零�
 categories: ['少数派']
 date: Sat, 17 Feb 2024 10:30:36 GMT
 lastmod: Sat, 17 Feb 2024 10:30:36 GMT
-author: [['少数派']]
-tags:['少数派']
+author: ["g0f"]
+tags:
+- read
 draft: false 
 comments: true
 reward: true 

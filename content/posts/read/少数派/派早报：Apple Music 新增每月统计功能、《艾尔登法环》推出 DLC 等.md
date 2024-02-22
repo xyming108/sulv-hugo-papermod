@@ -3,8 +3,9 @@ title: '派早报：Apple Music 新增每月统计功能、《艾尔登法环》
 categories: ['少数派']
 date: Thu, 22 Feb 2024 00:36:31 GMT
 lastmod: Thu, 22 Feb 2024 00:36:31 GMT
-author: [['少数派']]
-tags:['少数派']
+author: ["g0f"]
+tags:
+- read
 draft: false 
 comments: true
 reward: true 

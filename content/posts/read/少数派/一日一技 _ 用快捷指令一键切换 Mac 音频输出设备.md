@@ -3,8 +3,9 @@ title: '一日一技 | 用快捷指令一键切换 Mac 音频输出设备'
 categories: ['少数派']
 date: Wed, 21 Feb 2024 07:00:26 GMT
 lastmod: Wed, 21 Feb 2024 07:00:26 GMT
-author: [['少数派']]
-tags:['少数派']
+author: ["g0f"]
+tags:
+- read
 draft: false 
 comments: true
 reward: true 

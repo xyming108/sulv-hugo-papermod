@@ -3,8 +3,9 @@ title: '派早报：Sora 视频生成模型公布研发进展，nginx 主要维�
 categories: ['少数派']
 date: Mon, 19 Feb 2024 00:54:59 GMT
 lastmod: Mon, 19 Feb 2024 00:54:59 GMT
-author: [['少数派']]
-tags:['少数派']
+author: ["g0f"]
+tags:
+- read
 draft: false 
 comments: true
 reward: true 

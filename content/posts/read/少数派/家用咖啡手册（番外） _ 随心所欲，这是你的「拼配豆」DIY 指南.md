@@ -3,8 +3,9 @@ title: '家用咖啡手册（番外） | 随心所欲，这是你的「拼配豆
 categories: ['少数派']
 date: Mon, 19 Feb 2024 07:00:00 GMT
 lastmod: Mon, 19 Feb 2024 07:00:00 GMT
-author: [['少数派']]
-tags:['少数派']
+author: ["g0f"]
+tags:
+- read
 draft: false 
 comments: true
 reward: true 

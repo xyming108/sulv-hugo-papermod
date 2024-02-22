@@ -3,8 +3,9 @@ title: '用浏览器思路，为 iPad 带来桌面级体验：Lok Board'
 categories: ['少数派']
 date: Tue, 20 Feb 2024 04:19:38 GMT
 lastmod: Tue, 20 Feb 2024 04:19:38 GMT
-author: [['少数派']]
-tags:['少数派']
+author: ["g0f"]
+tags:
+- read
 draft: false 
 comments: true
 reward: true 

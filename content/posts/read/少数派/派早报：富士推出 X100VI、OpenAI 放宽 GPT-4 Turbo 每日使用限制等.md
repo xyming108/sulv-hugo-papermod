@@ -3,8 +3,9 @@ title: '派早报：富士推出 X100VI、OpenAI 放宽 GPT-4 Turbo 每日使用
 categories: ['少数派']
 date: Wed, 21 Feb 2024 00:00:00 GMT
 lastmod: Wed, 21 Feb 2024 00:00:00 GMT
-author: [['少数派']]
-tags:['少数派']
+author: ["g0f"]
+tags:
+- read
 draft: false 
 comments: true
 reward: true 

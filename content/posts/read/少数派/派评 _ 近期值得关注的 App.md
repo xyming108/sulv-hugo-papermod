@@ -3,8 +3,9 @@ title: '派评 | 近期值得关注的 App'
 categories: ['少数派']
 date: Mon, 19 Feb 2024 10:11:06 GMT
 lastmod: Mon, 19 Feb 2024 10:11:06 GMT
-author: [['少数派']]
-tags:['少数派']
+author: ["g0f"]
+tags:
+- read
 draft: false 
 comments: true
 reward: true 

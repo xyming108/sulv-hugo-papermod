@@ -3,8 +3,9 @@ title: '派早报：Intel 被指控夸大 CPU 测试结果，英国芯片制造�
 categories: ['少数派']
 date: Tue, 20 Feb 2024 00:00:00 GMT
 lastmod: Tue, 20 Feb 2024 00:00:00 GMT
-author: [['少数派']]
-tags:['少数派']
+author: ["g0f"]
+tags:
+- read
 draft: false 
 comments: true
 reward: true 
