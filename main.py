@@ -103,11 +103,24 @@ def dfs_route(route_config, path):
 md_temple = '''---
 title: {title}
 categories: {cat}
-tags: {tag}
+keywords: {tag}
 date: {date}
-updated: {date}
-cover: {img}
-comments: false
+lastmod: {date}
+author: [{tag}]
+tags: {tag}
+draft: false 
+comments: true
+reward: true 
+mermaid: true 
+showToc: true 
+TocOpen: true 
+hidemeta: false 
+disableShare: true 
+showbreadcrumbs: true 
+cover:
+    image: {img}
+    alt: "{title}"
+    relative: false
 ---
 
 <div>
@@ -218,7 +231,7 @@ def get_post(res,item):
     elif img:
       img = img.replace('http://',CORS_API+'/?url=http://')
     if not img:
-      img = 'https://picsum.photos/400/300?random='+ str(random.randint(0,10000))
+      img = https://www.g0f.cn/img/banner.jpg
 
     
     md_content = md_temple
